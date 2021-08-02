@@ -1,6 +1,4 @@
 name="AnbennarianIdeas"
-replace_path="gfx/loadingscreens"
-replace_path="missions"
 tags={
 	"Historical"
 	"Missions And Decisions"
@@ -8,5 +6,5 @@ tags={
 	"Gameplay"
 	"New Nations"
 }
-supported_version="1.30.*.*"
+supported_version="1.31.*.*"
 path="mod/AnbennarianIdeas"
