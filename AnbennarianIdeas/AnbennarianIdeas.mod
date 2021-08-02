@@ -1,4 +1,4 @@
-name="excelmakesbelhappypack"
+name="AnbennarianIdeas"
 replace_path="gfx/loadingscreens"
 replace_path="missions"
 tags={
@@ -9,4 +9,4 @@ tags={
 	"New Nations"
 }
 supported_version="1.30.*.*"
-path="mod/excelmakesbelhappypack"
+path="mod/AnbennarianIdeas"
