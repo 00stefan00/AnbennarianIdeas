@@ -1,0 +1,92 @@
+age_absolu_age_1 = {
+	potential = {
+		current_age = age_of_discovery
+	}
+	trigger = {
+		current_age = age_of_discovery
+	}
+	max_absolutism = -60
+}
+
+age_absolu_age_2 = {
+	potential = {
+		current_age = age_of_reformation
+	}
+	trigger = {
+		current_age = age_of_reformation
+	}
+	max_absolutism = -50
+}
+
+######################################
+# Counter Revolution
+######################################
+counter_revolution = {
+	potential = {
+		revolution_target_exists = yes
+		is_revolution_target = no
+	}
+
+	trigger = {
+		capital_scope = { continent = europe }
+		revolution_target_exists = yes
+		is_revolution_target = no
+		is_free_or_tributary_trigger = yes
+		NOT = {
+			revolution_target = {
+				war_with = ROOT
+			}
+			revolution_target = {
+				truce_with = ROOT
+			} 
+		}
+		government = monarchy
+	}
+
+	prestige = -5
+	stability_cost_modifier = 0.3
+	global_unrest = 5
+}
+
+
+
+######################################
+# Reaction
+######################################
+reaction = {
+	potential = {
+		revolution_target_exists = yes
+		capital_scope = { continent = europe }
+	}
+
+	trigger = {
+		capital_scope = { continent = europe }
+		revolution_target_exists = yes
+		is_revolution_target = no
+		is_free_or_tributary_trigger = yes
+		government = monarchy
+		revolution_target = {
+			war_with = ROOT
+		}
+	}
+
+	prestige = 10
+	stability_cost_modifier = -0.1
+	global_unrest = -10
+}
+
+
+iv_gov_vision_not_target = {
+
+	potential = {
+		revolution_target_exists = yes
+		is_revolution_target = no		
+	}
+	trigger = {
+		revolution_target_exists = yes
+		is_revolution_target = no
+	}
+	land_morale = 0.1
+	prestige = 3
+
+}
