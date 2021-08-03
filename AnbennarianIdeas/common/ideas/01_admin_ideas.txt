@@ -135,7 +135,7 @@ administrative_ideas =
 		modifier =
 		{
 			factor = 2.0
-			has_idea_group = justiz0
+			has_idea_group = justice0
 		}
 
 		modifier =
@@ -169,7 +169,7 @@ administrative_ideas =
 ########################################################
 
 #development0
-entwicklung0 =
+development0 =
 {
 	category = ADM
 
@@ -179,45 +179,45 @@ entwicklung0 =
 	}
 
 	#development1
-	entwicklung1 =
+	development1 =
 	{
 		#add tooltip to see how often it fires
 		# <<WIKI>> decision = improve_development
 	}
 
 	#development2
-	entwicklung2 =
+	development2 =
 	{
 		production_efficiency = 0.1
 	}
 
 	#development3
-	entwicklung3 =
+	development3 =
 	{
 		global_tax_modifier = 0.1
 	}
 
 	#development4
-	entwicklung4 =
+	development4 =
 	{
 		state_governing_cost = -0.1
 	}
 
 	#development5
-	entwicklung5 =
+	development5 =
 	{
 		global_autonomy = -0.1
 	}
 
 	#development6
-	entwicklung6 =
+	development6 =
 	{
 		build_cost = -0.1
 		build_time = -0.1
 	}
 
 	#development7
-	entwicklung7 =
+	development7 =
 	{
 		state_maintenance_modifier = -0.1
 	}
@@ -607,7 +607,7 @@ expansion_ideas =
 ########################################################
 
 #Health0
-gesundheit0 =
+health0 =
 {
 	category = ADM
 
@@ -617,48 +617,48 @@ gesundheit0 =
 	}
 
 	#Health1
-	gesundheit1 =
+	health1 =
 	{
 		burghers_loyalty_modifier = 0.05	
 		production_efficiency = 0.1
 	}
 
 	#Health2	
-	gesundheit2 =
+	health2 =
 	{
 		yearly_absolutism = 0.1
 		max_absolutism = 10
 	}
 
 	#Health3
-	gesundheit3 =
+	health3 =
 	{
 		church_loyalty_modifier = 0.05
 		manpower_in_true_faith_provinces= 0.1
 	}
 
 	#Health4
-	gesundheit4 =
+	health4 =
 	{
 		prestige = 0.25
 		stability_cost_modifier = -0.25
 	}
 
 	#Health5
-	gesundheit5 =
+	health5 =
 	{
 		advisor_cost = -0.15
 		advisor_pool = 1
 	}
 
 	#Health6
-	gesundheit6 =
+	health6 =
 	{
 		monarch_lifespan = 0.25
 	}
 
 	#Health7
-	gesundheit7 =
+	health7 =
 	{
 		nobles_loyalty_modifier = 0.05
 		peasants_loyalty_modifier = 0.05
@@ -1033,7 +1033,7 @@ innovativeness_ideas =
 ########################################################
 
 #Jurisprudence0
-justiz0 =
+justice0 =
 {
 	category = ADM
 
@@ -1043,7 +1043,7 @@ justiz0 =
 	}
 
 	#Jurisprudence1
-	justiz1 =
+	justice1 =
 	{
 		legitimacy = 1
 		republican_tradition = 0.3
@@ -1053,41 +1053,41 @@ justiz0 =
 	}
 
 	#Jurisprudence2
-	justiz2 =
+	justice2 =
 	{
 		yearly_corruption = -0.1
 	}
 
 	#Jurisprudence3
-	justiz3 =
+	justice3 =
 	{
 		idea_cost = -0.05
 		imperial_authority = 0.1
 	}
 
 	#Jurisprudence4
-	justiz4 =
+	justice4 =
 	{
 		production_efficiency = 0.05
 		global_trade_goods_size_modifier = 0.05
 	}
 
 	#Jurisprudence5
-	justiz5 =
+	justice5 =
 	{
 		interest = -1
 		global_autonomy = -0.01
 	}
 
 	#Jurisprudence6
-	justiz6 =
+	justice6 =
 	{
 		core_creation = -0.05
 		diplomatic_annexation_cost = -0.05
 	}
 
 	#Jurisprudence7
-	justiz7 =
+	justice7 =
 	{
 		tolerance_heathen = 1
 		tolerance_heretic = 1
@@ -1148,7 +1148,7 @@ justiz0 =
 ########################################################
 
 #StateAdministration0
-staatsverwaltung0 =
+stateadministration0 =
 {
 	category = ADM
 
@@ -1158,44 +1158,44 @@ staatsverwaltung0 =
 	}
 
 	#StateAdministration1
-	staatsverwaltung1 =
+	stateadministration1 =
 	{
 		governing_capacity = 150
 	}
 
 	#StateAdministration2
-	staatsverwaltung2 =
+	stateadministration2 =
 	{
 		state_maintenance_modifier = -0.15
 	}
 
 	#StateAdministration3
-	staatsverwaltung3 =
+	stateadministration3 =
 	{
 		development_cost = -0.1
 	}
 
 	#StateAdministration4
-	staatsverwaltung4 =
+	stateadministration4 =
 	{
 		yearly_corruption = -0.1
 	}
 
 	#StateAdministration5
-	staatsverwaltung5 =
+	stateadministration5 =
 	{
 		state_governing_cost = -0.05
 		governing_capacity_modifier = 0.05
 	}
 
 	#StateAdministration6
-	staatsverwaltung6 =
+	stateadministration6 =
 	{
 		embracement_cost = -0.15
 	}
 
 	#StateAdministration7
-	staatsverwaltung7 =
+	stateadministration7 =
 	{
 		global_trade_goods_size_modifier = 0.05
 	}
@@ -1220,7 +1220,7 @@ staatsverwaltung0 =
 		modifier =
 		{
 			factor = 2.0
-			has_idea_group = justiz0
+			has_idea_group = justice0
 		}
 
 		modifier =
@@ -5415,7 +5415,7 @@ zentra0 =
 		modifier =
 		{
 			factor = 2.0
-			has_idea_group = justiz0
+			has_idea_group = justice0
 		}
 
 		modifier =
@@ -5570,7 +5570,7 @@ dezentra0 =
 		modifier =
 		{
 			factor = 2.0
-			has_idea_group = justiz0
+			has_idea_group = justice0
 		}
 
 		modifier =

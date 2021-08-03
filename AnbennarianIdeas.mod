@@ -1,5 +1,4 @@
 name="AnbennarianIdeas"
-replace_path="common/ideas"
 tags={
 	"Historical"
 	"Missions And Decisions"

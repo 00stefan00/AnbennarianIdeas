@@ -71,49 +71,46 @@ defensive_ideas =
 
 	bonus = 
 	{
-		defensiveness = 0.2	
+		army_tradition_from_battle = 1
+		army_tradition_decay = -0.015				
 	}
 
 	battlefield_commisions = 
 	{
-		garrison_size = 0.15
-		land_forcelimit_modifier = 0.1
+		garrison_size = 0.25
+		global_garrison_growth = 0.25
 	}
 	
 	military_drill = 
 	{
-		global_garrison_growth = 0.15
-		recover_army_morale_speed = 0.1	
+		land_morale = 0.1
 	}
 	
 	superior_firepower = 
 	{
-		siege_ability = 0.05
-		backrow_artillery_damage = 0.05
+		backrow_artillery_damage = 0.1
 	}
 	
 	regimental_system = 
 	{
-		fire_damage_received = -0.05
-		global_supply_limit_modifier = 0.1
+		global_supply_limit_modifier = 0.20
 	}
 	
 	defensive_mentality = 
 	{
-		shock_damage_received = -0.05
-		fort_maintenance_modifier = -0.1
+		defensiveness = 0.30
+		fort_maintenance_modifier = -0.30	
 	}
 	
 	supply_trains = 
 	{
-		reinforce_speed = 0.15
-		land_attrition = -0.1
+		hostile_attrition = 1.5		
 	}
 	
-	improved_foraging = 
+	thick_skin = 
 	{
-		land_maintenance_modifier = -0.1
-		land_morale = 0.05
+		shock_damage_received = -0.075
+		fire_damage_received = -0.075
 	}
 
 	ai_will_do = 
@@ -702,45 +699,32 @@ quality_ideas =
 {
 	category = MIL
 			
-	bonus = 
-	{
-		discipline = 0.015		
+	bonus = {
+		discipline = 0.065
+		land_maintenance_modifier = 0.15
 	}
 
-	private_to_marshal = 
-	{
-		land_maintenance_modifier = -0.15
+	private_to_marshal = {
+		infantry_power = 0.10
 	}
-	
-	quality_education = 
-	{
-		army_tradition_from_battle = 0.5
+	quality_education = {
+		army_tradition = 0.5
 	}
-	
-	finest_of_horses = 
-	{
+	finest_of_horses = {
 		cavalry_power = 0.15
 	}
-	
-	escort_ships = 
-	{
-		drill_gain_modifier = 0.15
-		drill_decay_modifier = -0.25
+	train_em_again = {
+		infantry_power = 0.10
 	}
-	
-	naval_drill = 
-	{		
-		infantry_power = 0.15
+	put_pros_in_charge = {
+		yearly_army_professionalism = 0.01
 	}
-	
-	copper_bottoms = 
-	{
-		siege_ability = 0.1
+	constant_drills = {
+		drill_gain_modifier = 0.5
+		drill_decay_modifier = -0.50
 	}
-	
-	massed_battery = 
-	{
-		artillery_power = 0.15
+	massed_battery = {
+		artillery_power = 0.1
 	}
 
 	ai_will_do = 
@@ -824,15 +808,13 @@ quantity_ideas =
 
 	bonus = 
 	{
-		land_morale = 0.05
+		global_manpower_modifier = 0.50
 	}
 	
 	mass_army = 
 	{
-		naval_forcelimit = 10
-		land_forcelimit = 10
-		# <<WIKI>> add_age_forcelimit_naval = 10
-		# <<WIKI>> add_age_forcelimit_land = 10
+		land_forcelimit_modifier = 0.25
+		land_forcelimit = 15
 	}
 	
 	the_young_can_serve = 
@@ -842,7 +824,7 @@ quantity_ideas =
 	
 	enforced_service = 
 	{
-		land_forcelimit_modifier  = 0.25		
+		global_regiment_cost = -0.10		
 	}
 	
 	the_old_and_infirm = 
@@ -852,18 +834,19 @@ quantity_ideas =
 	
 	mercenary_contracts = 
 	{
-		reinforce_cost_modifier = -0.1
+		reinforce_cost_modifier = -0.25
 	}
 	
-	garrison_conscription = 
+	rushed_recruitment = 
 	{
-		garrison_size = 0.25
-		global_manpower = 25	
+		global_regiment_recruit_speed = -0.8
+		discipline = -0.015
 	}
 	
 	expanded_supply_trains = 
 	{
 		global_supply_limit_modifier = 0.25
+		land_attrition = -0.1
 	}
 
 	ai_will_do = 
