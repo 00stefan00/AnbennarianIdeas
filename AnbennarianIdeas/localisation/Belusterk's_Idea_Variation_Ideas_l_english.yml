@@ -892,7 +892,7 @@
 ########################################################
 
  assimilation0: "Assimilation"
- assimilation0_desc: "The state is doing what it can to assimilate other cultures."
+ assimilation0_desc: "We shall be one"
  assimilation1: "Reeducation"
  assimilation1_desc: "We reeducate the people of the lands we have conquered to learn our ways."
  assimilation2: "Fast Integration"
@@ -903,10 +903,10 @@
  assimilation4_desc: "It can be helpful to appease nationalists with small concessions."
  assimilation5: "Positive Pamphlet"
  assimilation5_desc: "Our own philosophers will praise our culture and our work."
- assimilation6: "Strong Solidarity"
- assimilation6_desc: "If someone tries to conquer our lands, our people will stay loyal."
- assimilation7: "Not Enemies. Brothers"
- assimilation7_desc: "The first day after we conquer our enemy's lands, we shall call enemy brother."
+ assimilation6: "More Advisors"
+ assimilation6_desc: "Who wouldn't want to work for us in this amazing land"
+ assimilation7: "For the greater good"
+ assimilation7_desc: "Our advisors love us so much, they would almost work for free"
 
 ########################################################
 ####### Colonial Empire
@@ -959,17 +959,17 @@
  efficient_spies:0 "Common Cause"
  efficient_spies_desc:0 "As we expand our underground network, we now recruit only the most promising candidates to do our dirty work. These efficient spies come from all sorts of unusual backgrounds and even from realms not under our direct rule. Our sphere of influence needs to be expanded and our covert agents understand this.  After all, we are in this together."
  agent_training:0 "Selective Agent Training"
- agent_training_desc:0 "Only the best of the best can serve our realm in the shadows. Those who narrowly miss the cut are encouraged to join our army with generous officer commissions."
- vetting:0 "Vetting"
- vetting_desc:0 "With so many offices for profit, we sometimes find that those who run our administration are susceptible to bribes from foreign powers. A few simple background checks will weed out the most prone to corruption."
+ agent_training_desc:0 "Our agents abroad will make sure to make everything about our expansion unclear. If the enemy doesnt know what we did, then how can they judge us."
+ vetting:0 "Counter-Espionage"
+ vetting_desc:0 "Our excellent spies know how to spy, and therefor know where to expect enemy spies"
  additional_loyalist_recruitment:0 "Additional Loyalist Recruitment"
  additional_loyalist_recruitment_desc:0 "Naturally, there are those who reside in our subjects' lands who understand the divine right of our rule. By recruiting and aiding these enlightened individuals we can strengthen our grasp on subject nations." 
- spion5: "Trade Infiltration"
- spion5_desc: "Infiltrating the traders of our enemies and friends will increase our profit and also enable us to react to enemy intrigue towards our vassals."
- privateers:0 "Privateers"
- privateers_desc:0 "Waging war on enemy commerce rests on the apex of the first triad of victory. We will encourage crusty sea captains to strike at the enemy's trade."
- audit_checks:0 "Audit Checks"
- audit_checks_desc:0 "While we look to infiltrate other nations, we must be vigilant of poisonous ideas spreading around our own courts. Assembling an audit team to ensure our ministers are acting in the state's interest will help root out some rotten elements."
+ spion5: "Super recruitment agency"
+ spion5_desc: "More = better. Better = good. good = .... ... . Yeah... spies!!!"
+ privateers:0 "Embargo specialists"
+ privateers_desc:0 "Our spies manipulate the markets, making sure our embargo's are much more effective"
+ audit_checks:0 "No witnesses"
+ audit_checks_desc:0 "Leave no witnesses, or at least, try to."
  
 ########################################################
 ####### Exploration
