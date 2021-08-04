@@ -1480,7 +1480,7 @@ soldnerheer0 =
 
 	bonus = 
 	{
-		merc_maintenance_modifier = -0.5		
+		merc_maintenance_modifier = -1	
 	}
 	
 	trigger = 
