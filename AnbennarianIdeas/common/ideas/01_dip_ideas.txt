@@ -1664,7 +1664,7 @@ propaganda0 =
 
 	propaganda1 =
 	{
-		leader_cost = -0.5
+		leader_cost = -0.25
 	}
 
 	propaganda2 =
