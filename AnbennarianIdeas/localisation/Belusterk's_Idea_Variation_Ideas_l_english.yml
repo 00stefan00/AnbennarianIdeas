@@ -1,4 +1,4 @@
-l_english:
+﻿nglish:
 ########################################################
 ####### Administrative Idea Groups
 ########################################################
@@ -847,16 +847,16 @@ l_english:
 
  zentra0: "§G***§! Centralization §G***§!"
  zentra0_desc: "Our state is centrally ruled."
- zentra1: "Minister of Construction"
- zentra1_desc: "The minister of construction will oversee our most important projects and reduce construction time considerably."
+ zentra1: "localised production of goods"
+ zentra1_desc: "With our lands centralised, moving products from facility to facility never takes long. This boost our total production."
  zentra2: "Central Production"
  zentra2_desc: "Concentrating our production in certain areas will raise our capacity to produce."
  zentra3: "Metropolis Development"
- zentra3_desc: "We are used to planning big cities. \nDevelopment cost in provinces with 25+ development: §G-20%§!"
+ zentra3_desc: "We are used to planning big cities."
  zentra4: "Autonomy Reduction"
  zentra4_desc: "We are keen on reducing autonomy in our provinces to push back local elites."
  zentra5: "Central Recruiting"
- zentra5_desc: "Through the concentration of our people we can easily find men for the army. \nManpower Increase for future Ages §G+2500§! \nSailor Increase for future Ages §G+1250§!"
+ zentra5_desc: "Through the concentration of our people we can easily find men for the army."
  zentra6: "Central Administration"
  zentra6_desc: "Central Administration allows us to govern our provinces very effectively. However, we can only govern so many provinces this way."
  zentra7: "Central Tax Administration"
@@ -871,11 +871,11 @@ l_english:
  dezentra1: "General Expansion"
  dezentra1_desc: "The resources of the state are not concentrated in one area alone. Whole regions will profit."
  dezentra2: "Decentralized Administration"
- dezentra2_desc: "Because of our big territory, we have to work in a decentralized way to govern."
+ dezentra2_desc: "Because of our big territory, we have to work in a decentralized way to govern and keep the peace."
  dezentra3: "Different Centers of Trade"
  dezentra3_desc: "We won't rely on one center of trade alone."
  dezentra4: "Cultural Centers"
- dezentra4_desc: "We won't focus on one cultural center alone, but on many."
+ dezentra4_desc: "We won't focus on one culture alone, but on many."
  dezentra5: "Great State"
  dezentra5_desc: "The national territory of the state is vast."
  dezentra6: "Timid Population Growth"
