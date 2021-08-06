@@ -1844,7 +1844,7 @@ trade_ideas =
 
 	bonus =
 	{
-		center_of_trade_upgrade_cost = -0.5
+		center_of_trade_upgrade_cost = -0.25
 	}
 
 	shrewd_commerce_practise =

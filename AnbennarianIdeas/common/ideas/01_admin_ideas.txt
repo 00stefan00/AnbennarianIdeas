@@ -76,7 +76,7 @@ administrative_ideas =
 	
 	offensive_administration =
 	{
-		fabricate_claims_cost = -0.5
+		fabricate_claims_cost = -0.25
 	}
 
 	adaptability =
