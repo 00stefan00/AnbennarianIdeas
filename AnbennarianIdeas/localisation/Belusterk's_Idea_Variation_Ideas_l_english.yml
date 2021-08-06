@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
 ########################################################
 ####### Administrative Idea Groups
 ########################################################
@@ -1125,13 +1125,13 @@
  propaganda0: "Propaganda"
  propaganda0_desc: "State propaganda rules the media."
  propaganda1: "War Propaganda"
- propaganda1_desc: "Good propaganda can inspire people to keep fighting."
- propaganda2: "Minister of Propaganda"
- propaganda2_desc: "A minister of propaganda can be very beneficial."
+ propaganda1_desc: "Good propaganda can inspire the greatest generals to fight for us, even at lower pay"
+ propaganda2: "Hear our stories"
+ propaganda2_desc: "Everyone will hear of our great feats"
  propaganda3: "Influence Foreign Countries"
  propaganda3_desc: "Because of our propaganda even other nations buy some of our stories."
  propaganda4: "Credibility"
- propaganda4_desc: "By telling the truth at least sometimes or partly, we convey credibility."
+ propaganda4_desc: "By telling the truth at least sometimes or partly, we convey credibility. No one should believe those nasty rumours about our expansion."
  propaganda5: "Strive For Big Things"
  propaganda5_desc: "We always strive for the biggest thing, that is the essence of our propaganda."
  propaganda6: "General Vindication"
