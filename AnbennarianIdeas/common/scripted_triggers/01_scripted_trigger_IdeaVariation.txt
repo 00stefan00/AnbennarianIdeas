@@ -189,7 +189,7 @@ no_idea_group_7 =
 		#Diplo Ideas
 		assimilation0 = 7
 		kolonialimperium0 = 7
-		dynasty0 = 7
+		science0 = 7
 		spy_ideas = 7
 		exploration_ideas = 7
 		flottenbasis0 = 7

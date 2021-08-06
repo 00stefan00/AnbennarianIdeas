@@ -933,8 +933,8 @@
 ####### Dynastic
 ########################################################
 
- dynasty0: "Dynastic"
- dynasty0_bonus: "Full Dynasty"
+ science0: "Dynastic"
+ science0_bonus: "Full Dynasty"
  foreign_embassies_2: "Foreign Embassies"
  foreign_embassies_2_desc: "Diplomacy is a delicate art of trying to balance several sides at the same time. If we maintain embassies in other countries reporting to us on a regular basis then we will have the information needed in order to ponder our options. \n§GDecision§W to spread your dynasty to other countries. \n§GElective Monarchy Rulers§W will get §G+1§W Diplomatic Skill"
  establish_cadet_branches:0 "Establish Cadet Branches"
@@ -947,8 +947,8 @@
  benign_diplomats_desc:0 "By being more careful in selecting and educating our diplomats, we will greatly increase our chance to exert our influence and establish a favorable position in other countries."
  experienced_diplomats:0 "Experienced Diplomats"
  experienced_diplomats_desc:0 "Sometimes it is simply enough for people to believe that we are powerful. We have worked hard on our diplomatic service to ensure that our word carries extra weight."
- dynastie4: "Surprise Attack"
- dynastie4_desc: "Our diplomatic game is on the level that our enemies don't expect our attack even though they know it is coming. That will give us an early advantage. \n§GCasus Belli§W against everyone sharing your dynasty to force a personal union."
+ science4: "Surprise Attack"
+ science4_desc: "Our diplomatic game is on the level that our enemies don't expect our attack even though they know it is coming. That will give us an early advantage. \n§GCasus Belli§W against everyone sharing your dynasty to force a personal union."
 
 ########################################################
 ####### Espionage

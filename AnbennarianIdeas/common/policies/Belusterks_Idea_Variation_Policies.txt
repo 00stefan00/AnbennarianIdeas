@@ -175,7 +175,7 @@ belusterk_idea_variation_ae_impact_2 =
 
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = stehendesheer0
 			}
 		}
@@ -220,7 +220,7 @@ belusterk_idea_variation_ae_impact_2 =
 
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = stehendesheer0
 			}
 		}
@@ -696,7 +696,7 @@ belusterk_idea_variation_build_cost_2 =
 				OR =
 				{
 					has_idea_group = trade_ideas
-					has_idea_group = dynasty0
+					has_idea_group = science0
 				}
 			}
 
@@ -734,7 +734,7 @@ belusterk_idea_variation_build_cost_2 =
 				OR =
 				{
 					full_idea_group = trade_ideas
-					full_idea_group = dynasty0
+					full_idea_group = science0
 				}
 			}
 
@@ -2280,7 +2280,7 @@ belusterk_idea_variation_act_24 =
 		{
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = republik0
 			}
 
@@ -2304,7 +2304,7 @@ belusterk_idea_variation_act_24 =
 		{
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = republik0
 			}
 
@@ -2337,13 +2337,13 @@ belusterk_idea_variation_act_25 =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = quantity_ideas
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = quantity_ideas
 	}
 
@@ -2398,7 +2398,7 @@ belusterk_idea_variation_diplomatic_reputation =
 		{
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				OR =
 				{
 					has_idea_group = innovativeness_ideas
@@ -2423,7 +2423,7 @@ belusterk_idea_variation_diplomatic_reputation =
 		{
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				OR =
 				{
 					full_idea_group = innovativeness_ideas
@@ -2457,13 +2457,13 @@ belusterk_idea_variation_diplomatic_upkeep =
 	potential =
 	{
 		has_idea_group = dezentra0
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 
 	allow =
 	{
 		full_idea_group = dezentra0
-		full_idea_group = dynasty0
+		full_idea_group = science0
 	}
 
 	diplomatic_upkeep = 2
@@ -2480,13 +2480,13 @@ belusterk_idea_variation_act_26 =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = stateadministration0
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = stateadministration0
 	}
 
@@ -2510,7 +2510,7 @@ belusterk_idea_variation_act_27 =
 			AND =
 			{
 				has_idea_group = administrative_ideas
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 
 			AND =
@@ -2539,7 +2539,7 @@ belusterk_idea_variation_act_27 =
 			AND =
 			{
 				full_idea_group = administrative_ideas
-				full_idea_group = dynasty0
+				full_idea_group = science0
 			}
 
 			AND =
@@ -2577,13 +2577,13 @@ belusterk_idea_variation_act_28 =
 	potential =
 	{
 		has_idea_group = zentra0
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 
 	allow =
 	{
 		full_idea_group = zentra0
-		full_idea_group = dynasty0
+		full_idea_group = science0
 	}
 
 	diplomats = 1
@@ -2646,7 +2646,7 @@ belusterk_idea_variation_discipline =
 				{
 					has_idea_group = expansion_ideas
 					has_idea_group = justice0
-					has_idea_group = dynasty0
+					has_idea_group = science0
 				}
 			}
 
@@ -2751,7 +2751,7 @@ belusterk_idea_variation_discipline =
 				{
 					full_idea_group = expansion_ideas
 					full_idea_group = justice0
-					full_idea_group = dynasty0
+					full_idea_group = science0
 				}
 			}
 
@@ -3263,13 +3263,13 @@ belusterk_idea_variation_act_35 =
 	monarch_power = MIL
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = defensive_ideas
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = defensive_ideas
 	}
 
@@ -4586,7 +4586,7 @@ belusterk_idea_variation_global_manpower_modifier_2 =
 
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = wehrpflicht0
 			}
 
@@ -4610,7 +4610,7 @@ belusterk_idea_variation_global_manpower_modifier_2 =
 
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = wehrpflicht0
 			}
 
@@ -7115,13 +7115,13 @@ belusterk_idea_variation_act_82 =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = expansion_ideas
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = expansion_ideas
 	}
 
@@ -7256,7 +7256,7 @@ belusterk_idea_variation_act_85 =
 			AND =
 			{
 				has_idea_group = republik0
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 		}
 	}
@@ -7274,7 +7274,7 @@ belusterk_idea_variation_act_85 =
 			AND =
 			{
 				full_idea_group = republik0
-				full_idea_group = dynasty0
+				full_idea_group = science0
 			}
 		}
 	}
@@ -8299,7 +8299,7 @@ belusterk_idea_variation_act_91 =
 
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = development0
 			}
 		}
@@ -8317,7 +8317,7 @@ belusterk_idea_variation_act_91 =
 
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = development0
 			}
 		}
@@ -9732,7 +9732,7 @@ belusterk_idea_variation_act_113 =
 
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = kriegsproduktion0
 			}
 
@@ -9783,7 +9783,7 @@ belusterk_idea_variation_act_113 =
 
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = kriegsproduktion0
 			}
 
@@ -9989,7 +9989,7 @@ belusterk_idea_variation_land_morale_3 =
 			AND =
 			{
 				has_idea_group = formation0
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 			AND =
 			{
@@ -10100,7 +10100,7 @@ belusterk_idea_variation_land_morale_3 =
 			AND =
 			{
 				full_idea_group = formation0
-				full_idea_group = dynasty0
+				full_idea_group = science0
 			}
 			AND =
 			{
@@ -11096,13 +11096,13 @@ belusterk_idea_variation_manpower_recovery_speed_2 =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = fire0
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = fire0
 	}
 
@@ -11653,13 +11653,13 @@ belusterk_idea_variation_mil_tech_cost_modifier =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		has_idea_group = waffenqualitat0
 	}
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		full_idea_group = waffenqualitat0
 	}
 
@@ -13140,13 +13140,13 @@ belusterk_idea_variation_act_151 =
 	potential =
 	{
 		has_idea_group = humanist_ideas
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 
 	allow =
 	{
 		full_idea_group = humanist_ideas
-		full_idea_group = dynasty0
+		full_idea_group = science0
 	}
 
 	num_accepted_cultures = 1
@@ -14024,7 +14024,7 @@ belusterk_idea_variation_reduced_liberty_desire_2 =
 
 			AND =
 			{
-				has_idea_group = dynasty0
+				has_idea_group = science0
 				has_idea_group = health0
 			}
 
@@ -14052,7 +14052,7 @@ belusterk_idea_variation_reduced_liberty_desire_2 =
 
 			AND =
 			{
-				full_idea_group = dynasty0
+				full_idea_group = science0
 				full_idea_group = health0
 			}
 
@@ -14362,7 +14362,7 @@ belusterk_idea_variation_act_167 =
 
 	potential =
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 		OR =
 		{
 			has_idea_group = religious_ideas
@@ -14396,7 +14396,7 @@ belusterk_idea_variation_act_167 =
 
 	allow =
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		OR =
 		{
 			full_idea_group = religious_ideas
@@ -14751,13 +14751,13 @@ belusterk_idea_variation_act_170 =
 	potential =
 	{
 		has_idea_group = shock0
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 
 	allow =
 	{
 		full_idea_group = shock0
-		full_idea_group = dynasty0
+		full_idea_group = science0
 	}
 
 	shock_damage = 0.05
@@ -15058,7 +15058,7 @@ belusterk_idea_variation_shock_damage_received =
 			AND =
 			{
 				has_idea_group = soldnerheer0
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 		}
 	}
@@ -15122,7 +15122,7 @@ belusterk_idea_variation_shock_damage_received =
 			AND =
 			{
 				full_idea_group = soldnerheer0
-				full_idea_group = dynasty0
+				full_idea_group = science0
 			}
 		}
 	}

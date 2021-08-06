@@ -184,18 +184,18 @@ belusterk_basic_idea_variation_dynastic_1 =
 
 	potential = 
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 	
 	allow = 
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		hidden_trigger =
 		{	
 			OR =
 			{
 				has_idea_group = second_diplo_idea
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 		}
 	}
@@ -214,18 +214,18 @@ belusterk_basic_idea_variation_dynastic_2 =
 
 	potential = 
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 	
 	allow = 
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		hidden_trigger =
 		{	
 			OR =
 			{
 				has_idea_group = second_diplo_idea
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 		}
 	}
@@ -244,18 +244,18 @@ belusterk_basic_idea_variation_dynastic_3 =
 
 	potential = 
 	{
-		has_idea_group = dynasty0
+		has_idea_group = science0
 	}
 	
 	allow = 
 	{
-		full_idea_group = dynasty0
+		full_idea_group = science0
 		hidden_trigger =
 		{	
 			OR =
 			{
 				has_idea_group = second_diplo_idea
-				has_idea_group = dynasty0
+				has_idea_group = science0
 			}
 		}
 	}

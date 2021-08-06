@@ -741,10 +741,10 @@ Addkolonialimperium0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kolonialimperium7
 		if = { limit = { has_idea = kolonialimperium7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Adddynasty0 = {
+Addscience0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = dynasty0	} #Dynastic Ideas
+	add_idea_group = science0	} #Dynastic Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = foreign_embassies_2
 		if = { limit = { has_idea = foreign_embassies_2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = establish_cadet_branches
@@ -757,8 +757,8 @@ Adddynasty0 = {
 		if = { limit = { has_idea = benign_diplomats } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = experienced_diplomats
 		if = { limit = { has_idea = experienced_diplomats } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = dynastie4
-		if = { limit = { has_idea = dynastie4 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science4
+		if = { limit = { has_idea = science4 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
 Addspy_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
@@ -1351,7 +1351,7 @@ Addshock0 = {
 #Adddezentra0            Decentralization
 #Addassimilation0        Assimilation Ideas
 #Addkolonialimperium0    Colonial Empire Ideas
-#Adddynasty0             Dynastic Ideas
+#Addscience0             Dynastic Ideas
 #Addspy_ideas            Espionage Ideas
 #Addexploration_ideas    Exploration Ideas
 #Addflottenbasis0        Fleet Base Ideas

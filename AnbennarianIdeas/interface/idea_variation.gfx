@@ -96,8 +96,8 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_dynasty0_2"
-		texturefile = "gfx//interface//ideas//idea_dynasty0_2.tga"
+		name = "GFX_idea_science0_2"
+		texturefile = "gfx//interface//ideas//idea_science0_2.tga"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate_linear.lua"
@@ -598,7 +598,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_dynasty0"
+		name = "GFX_idea_science0"
 		texturefile = "gfx//interface//ideas//idea_dynasty.tga"
 		noOfFrames = 1
 

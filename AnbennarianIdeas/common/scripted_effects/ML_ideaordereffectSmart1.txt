@@ -60,7 +60,7 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = zoro0 }                 Addzoro0 = yes }                             #Zororastrian Ideas
  	 if = { limit = { has_idea_group = formation0 }            Addformation0 = yes }                        #Tactical Ideas
  	 if = { limit = { has_idea_group = horde0 }                Addhorde0 = yes }                            #Horde Ideas
- 	 if = { limit = { has_idea_group = dynasty0 }              Adddynasty0 = yes }                          #Dynastic Ideas
+ 	 if = { limit = { has_idea_group = science0 }              Addscience0 = yes }                          #Dynastic Ideas
  	 if = { limit = { has_idea_group = ancli0 }                Addancli0 = yes }                            #Anglican Ideas
  	 if = { limit = { has_idea_group = militarismus0 }         Addmilitarismus0 = yes }                     #Militarism Ideas
  	 if = { limit = { has_idea_group = shock0 }                Addshock0 = yes }                            #Shock Ideas

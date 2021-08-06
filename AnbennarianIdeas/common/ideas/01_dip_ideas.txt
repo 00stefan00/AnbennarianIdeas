@@ -410,55 +410,51 @@ kolonialimperium0 =
 }
 
 ########################################################
-####### Dynastic
+####### Science
 ########################################################
 
-dynasty0 =
+science0 =
 {
 	category = DIP
 
 	bonus =
 	{
+		all_power_cost = -0.05			
+	}
+
+	science2 =
+	{
 		dip_tech_cost_modifier = -0.05	
 	}
 
-	foreign_embassies_2 =
+	science3 =
 	{
-		diplomats = 2
-		# <<WIKI>> decision = dynastie_promoten
-		# <<WIKI>> elective_monarchy_dip_buff = yes
-	}
-
-	establish_cadet_branches =
-	{
-		legitimacy = 2
-		prestige = 2
+		adm_tech_cost_modifier = -0.05	
 	}
 
 	cabinet =
 	{
-		diplomatic_upkeep = 2
+		mil_tech_cost_modifier = -0.05	
 	}
 
 	diplomatic_corps_2 =
 	{
-		heir_chance = 0.25		
-		diplomatic_reputation = 2
+		idea_cost = -0.05	
 	}
 
 	benign_diplomats =
 	{
-		improve_relation_modifier = 0.25
+		free_policy = 1
 	}
 
 	experienced_diplomats =
 	{
-		reduced_stab_impacts = yes
+		idea_cost = -0.1
 	}
 
-	dynastie4 =
+	science4 =
 	{
-		# <<WIKI>> add_cb = cb_dynastie		
+		prestige = 1
 	}
 
 	ai_will_do =
