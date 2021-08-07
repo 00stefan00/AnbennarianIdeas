@@ -5427,7 +5427,7 @@ zentra0 =
 	#Centralism5
 	zentra5 =
 	{
-		global_manpower = 20000
+		global_manpower = 20
 		global_sailors = 5000
 	}
 
