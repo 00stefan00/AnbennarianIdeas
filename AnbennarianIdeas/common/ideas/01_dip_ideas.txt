@@ -437,17 +437,17 @@ science0 =
 		mil_tech_cost_modifier = -0.05	
 	}
 
-	diplomatic_corps_2 =
+	science6 =
 	{
 		idea_cost = -0.05	
 	}
 
-	benign_diplomats =
+	science7 =
 	{
 		free_policy = 1
 	}
 
-	experienced_diplomats =
+	science8 =
 	{
 		idea_cost = -0.1
 	}

@@ -744,19 +744,19 @@ Addkolonialimperium0 = {
 Addscience0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = science0	} #Dynastic Ideas
+	add_idea_group = science0	} #Science Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science2
 		if = { limit = { has_idea = science2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science3
 		if = { limit = { has_idea = science3 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science5
 		if = { limit = { has_idea = science5 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = diplomatic_corps_2
-		if = { limit = { has_idea = diplomatic_corps_2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = benign_diplomats
-		if = { limit = { has_idea = benign_diplomats } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = experienced_diplomats
-		if = { limit = { has_idea = experienced_diplomats } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science6
+		if = { limit = { has_idea = science6 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science7
+		if = { limit = { has_idea = science7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science6
+		if = { limit = { has_idea = science8 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science4
 		if = { limit = { has_idea = science4 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
