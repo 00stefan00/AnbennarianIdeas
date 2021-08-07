@@ -5398,8 +5398,8 @@ zentra0 =
 	bonus =
 	{
 		max_absolutism = 10
-	}
-
+	
+}
 	#Centralism1
 	zentra1 =
 	{
