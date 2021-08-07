@@ -1,4 +1,4 @@
-﻿nglish:
+nglish:
 ########################################################
 ####### Administrative Idea Groups
 ########################################################
@@ -935,20 +935,20 @@
 
  science0: "Dynastic"
  science0_bonus: "Full Dynasty"
- foreign_embassies_2: "Foreign Embassies"
- foreign_embassies_2_desc: "Diplomacy is a delicate art of trying to balance several sides at the same time. If we maintain embassies in other countries reporting to us on a regular basis then we will have the information needed in order to ponder our options. \n§GDecision§W to spread your dynasty to other countries. \n§GElective Monarchy Rulers§W will get §G+1§W Diplomatic Skill"
- establish_cadet_branches:0 "Establish Cadet Branches"
- establish_cadet_branches_desc:0 "Inheritance can be a tricky business. By clearly defining roles and rights for our dynasty through Cadet Branches, we can ensure a more stable line of succession." 
- cabinet:0 "Cabinet"
- cabinet_desc:0 "By establishing an executive council, we are able to assemble our most skilled diplomats."
- diplomatic_corps_2: "Succession Wars"
- diplomatic_corps_2_desc: "Our country is used to fighting succession wars. We are always ready to enforce the claims of our family."
- benign_diplomats:0 "Benign Diplomats"
- benign_diplomats_desc:0 "By being more careful in selecting and educating our diplomats, we will greatly increase our chance to exert our influence and establish a favorable position in other countries."
- experienced_diplomats:0 "Experienced Diplomats"
- experienced_diplomats_desc:0 "Sometimes it is simply enough for people to believe that we are powerful. We have worked hard on our diplomatic service to ensure that our word carries extra weight."
- science4: "Surprise Attack"
- science4_desc: "Our diplomatic game is on the level that our enemies don't expect our attack even though they know it is coming. That will give us an early advantage. \n§GCasus Belli§W against everyone sharing your dynasty to force a personal union."
+ science2: "Mana of birds"
+ science2_desc: "Study the birds to save on bird mana"
+ science3:0 "Mana of paper"
+ science3_desc:0 "Study the birds to save on paper mana" 
+ cabinet:0 "Mana of swords"
+ cabinet_desc:0 "Study the birds to save on sword mana"
+ diplomatic_corps_2: "Lightbulb"
+ diplomatic_corps_2_desc: "Led, TL, Fluorescent, CFL, we dont know what any of these terms means. But somehow knowing this, we can implement ideas much more efficient."
+ benign_diplomats:0 "Eureka"
+ benign_diplomats_desc:0 "Yippee, we found a way to run more policies at no cost"
+ experienced_diplomats:0 "Even cheaper"
+ experienced_diplomats_desc:0 "Yes, we did it again"
+ science4: "Prestigious as ****"
+ science4_desc: "Everyone in the world has heard of our scientific breaktroughs. We will forever be remembered."
 
 ########################################################
 ####### Espionage
