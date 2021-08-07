@@ -1,0 +1,198 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new buildings, make sure they are uniquely named.
+
+# cost = x #==> cost in $ to build (subject to other modifiers)
+# time = x #==> number of months to build.
+# modifier = m # a modifier on the province that the building gives
+# trigger = t # an and trigger that needs to be fullfilled to build and keep the building
+# one_per_country = yes/no # if yes, only one of these can exist in a country
+# manufactory = { trade_good trade_good } # list of trade goods that get a production bonus
+# onmap = yes/no # show as a sprite on the map
+
+# FROM = owner
+# ROOT = province
+
+# AI will consider buildings it does not have the tech for at 20% of scripted AI weight (in case it wants to save slots)
+
+# Building AI is now mainly hard-coded. The AI will estimate how much it gains yearly from each building,
+# convert the value to ducats, and take the building with biggest yearly return as a percentage of the build cost.
+# If lower than 1%, the AI will not consider the yearly return worth it.
+# It will also require higher yearly return if the economy in not in prime shape.
+# Forts' value also get converted to a yearly return based on terrain and strategic position, as well as available budget for fort maintenance.
+
+# AI can still be modded though; it will multiply the yearly return with the value of ai_will_do.
+# If you don't want the AI to build a building at all, make ai_will_do become 0.
+# AI will consider each building to be worth 0.01 ducats per year as a base, so making ai_will_do above cost will have them build it at some point.
+# It will still check whether it can afford a building before doing so though, but may save up to it.
+
+# for University Hard coded AI sees no value in this above the 0.01 ducats base. Let's multiply that
+
+# Known issues with AI
+# AI don't see a value in free building slot that comes with a building, if AI is trying to replace it with something else he will stop functioning.
+# Triggers & Ai will do values needs to be the same for every building of the same type.
+# Floating modifiers can cause issues, because AI can replace buildings.
+
+################################################
+# Fortress
+################################################
+fortress_keep = {
+	cost = 25
+	time = 12
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	modifier = {
+		local_defensiveness = 0.25
+		max_attrition = 1
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+}
+
+fortress_barracks = {
+	cost = 50
+	time = 12
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	make_obsolete = fortress_keep
+
+	modifier = {
+		local_defensiveness = 0.25
+		local_manpower = 0.25
+		max_attrition = 0.5
+	}
+	ai_will_do = {
+		factor = 50
+	}
+}
+
+fortress_towers = {
+	cost = 75
+	time = 24
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	make_obsolete = fortress_barracks
+
+	modifier = {
+		local_defensiveness = 0.35
+		local_manpower = 0.25
+		max_attrition = 1
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+}
+
+fortress_artillery = {
+	cost = 500
+	time = 24
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	make_obsolete = fortress_towers
+
+	modifier = {
+		fort_level = 1
+		local_defensiveness = 0.35
+		local_manpower = 0.25
+		max_attrition = 1.5
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+}
+
+fortress_wall = {
+	cost = 750
+	time = 24
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	make_obsolete = fortress_artillery
+
+	modifier = {
+		fort_level = 2
+		local_defensiveness = 0.4
+		local_manpower = 0.25
+		max_attrition = 2
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+}
+
+fortress_supply = {
+	cost = 1000
+	time = 24
+
+	build_trigger = {
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+		has_idea = festung4
+	}
+
+	make_obsolete = fortress_wall
+
+	modifier = {
+		fort_level = 2
+		local_hostile_attrition = 2
+		local_defensiveness = 0.5
+		local_manpower = 0.25
+		max_attrition = 2.5
+	}
+
+	ai_will_do = {
+		factor = 50
+	}
+}
