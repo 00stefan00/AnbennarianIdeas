@@ -1752,7 +1752,7 @@ religious_ideas =
 
 	bonus =
 	{
-		tolerance_own = 2
+		missionary_maintenance_cost = -0.5
 	}
 
 	trigger =
@@ -1799,13 +1799,12 @@ religious_ideas =
 
 	missionary_schools =
 	{
-		missionaries = 1
-		missionary_maintenance_cost = -0.5
+		missionaries = 2
 	}
 
 	church_attendance_duty =
 	{
-		stability_cost_modifier = -0.33
+		stability_cost_modifier = -0.25
 	}
 
 	divine_supremacy =
@@ -1815,7 +1814,7 @@ religious_ideas =
 
 	devoutness =
 	{
-		tolerance_own = 1
+		tolerance_own = 3
 		papal_influence = 2
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
