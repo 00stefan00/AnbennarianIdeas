@@ -168,7 +168,7 @@ development0 =
 	development6 =
 	{
 		build_cost = -0.2
-		build_time = -0.5
+		build_time = -0.15
 	}
 
 	#development7

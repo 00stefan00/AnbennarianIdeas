@@ -749,8 +749,8 @@ Addscience0 = {
 		if = { limit = { has_idea = science2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science3
 		if = { limit = { has_idea = science3 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = cabinet
-		if = { limit = { has_idea = cabinet } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = science5
+		if = { limit = { has_idea = science5 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = diplomatic_corps_2
 		if = { limit = { has_idea = diplomatic_corps_2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = benign_diplomats
