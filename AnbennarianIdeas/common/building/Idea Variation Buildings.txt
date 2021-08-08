@@ -36,7 +36,7 @@
 # Fortress
 ################################################
 fortress_keep = {
-	cost = 25
+	cost = 50
 	time = 12
 
 	build_trigger = {
@@ -60,7 +60,7 @@ fortress_keep = {
 }
 
 fortress_barracks = {
-	cost = 50
+	cost = 150
 	time = 12
 
 	build_trigger = {
@@ -86,7 +86,7 @@ fortress_barracks = {
 }
 
 fortress_towers = {
-	cost = 75
+	cost = 300
 	time = 24
 
 	build_trigger = {
@@ -113,7 +113,7 @@ fortress_towers = {
 }
 
 fortress_artillery = {
-	cost = 500
+	cost = 1000
 	time = 24
 
 	build_trigger = {
@@ -141,7 +141,7 @@ fortress_artillery = {
 }
 
 fortress_wall = {
-	cost = 750
+	cost = 2500
 	time = 24
 
 	build_trigger = {
@@ -169,7 +169,7 @@ fortress_wall = {
 }
 
 fortress_supply = {
-	cost = 1000
+	cost = 4999
 	time = 24
 
 	build_trigger = {
@@ -187,7 +187,7 @@ fortress_supply = {
 	modifier = {
 		fort_level = 2
 		local_hostile_attrition = 2
-		local_defensiveness = 0.5
+		local_defensiveness = 0.6
 		local_manpower = 0.25
 		max_attrition = 2.5
 	}

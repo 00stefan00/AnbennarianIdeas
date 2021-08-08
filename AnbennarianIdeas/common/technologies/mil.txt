@@ -310,6 +310,7 @@ technology = {
 	
 	#Star Bastions
 	fort_16th = yes
+	fortress_keep = yes
 	infantry_fire		=	0.3
 	
 	enable = african_hussar
@@ -347,6 +348,7 @@ technology = {
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
+	fortress_barracks = yes
 	
 
 	
@@ -385,6 +387,7 @@ technology = {
 	
 	cavalry_shock		=	1.0
 	supply_limit		= 	0.5	
+	fortress_towers = yes
 	
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
@@ -423,7 +426,7 @@ technology = {
 	supply_limit		=	0.5
 
 	fort_17th = yes
-
+	fortress_artillery = yes
 	
 	enable = austrian_tercio   
 	enable = swedish_gustavian		
@@ -498,6 +501,7 @@ technology = {
 	cavalry_shock		=	1.0
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
+	fortress_wall = yes
 
 	enable = swedish_arme_blanche	
 	enable = french_dragoon		
@@ -556,6 +560,7 @@ technology = {
 	
 	#Light Infantry Companies
 	sprite_level = 4
+	fortress_supply = yes
 
 	land_morale			=	1.0
 
