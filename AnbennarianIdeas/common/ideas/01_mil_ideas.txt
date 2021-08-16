@@ -205,7 +205,6 @@ festung0 =
 
 	festung4 = 
 	{
-		rival_border_fort_maintenance = -0.75
 		# <<WIKI>> add_building = fortress_keep
 		# <<WIKI>> add_building = fortress_barracks
 		# <<WIKI>> add_building = fortress_towers
@@ -236,8 +235,8 @@ festung0 =
 
 	festung3 = 
 	{
-		global_tax_modifier = -0.33
-		fort_maintenance_modifier = -0.75
+		global_tax_modifier = -0.20
+		fort_maintenance_modifier = -0.6
 	}
 	
 	ai_will_do = 
@@ -319,6 +318,76 @@ festung0 =
 		{
 			factor = 2
 			government_rank = 2  # Kingdom
+		}
+	}
+}
+
+
+naval_ideas = {
+	category = MIL
+
+	trigger = {
+		primitives = no
+	}
+
+	bonus = {
+		ship_durability = 0.2
+	}
+
+	boarding_parties = {
+		leader_naval_shock = 1
+	}
+	improved_rams = {
+		galley_power = 0.33
+	}
+	naval_cadets = {
+		leader_naval_fire = 1
+	}
+	naval_glory = {
+		navy_tradition = 2
+	}
+	press_gangs = {
+		sunk_ship_morale_hit_recieved = -0.25
+	}
+	oak_forests_for_ships = {
+		heavy_ship_power = 0.25
+	}
+	superior_seamanship = {
+		naval_morale = 0.1
+	}
+
+	ai_will_do = {
+		factor = 0.31
+		modifier = {
+			factor = 0
+			is_tribal = yes
+		}
+		modifier = {
+			factor = 0
+			primitives = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+			NOT = { is_colonial_nation = yes }
+		}
+		modifier = {
+			factor = 0.31
+			NOT = { num_of_ports = 10 }
+		}
+		modifier = {
+			factor = 0.31
+			num_of_cities = 50
+		}
+
+		modifier = {
+			factor = 10
+			OR = {
+				has_reform = pirate_republic_reform
+				has_reform = pirate_kingdom
+				has_reform = war_against_the_world_government
+				has_reform = black_market_consortium_government
+			}
 		}
 	}
 }
@@ -701,20 +770,22 @@ quality_ideas =
 			
 	bonus = {
 		discipline = 0.065
-		land_maintenance_modifier = 0.15
 	}
 
 	private_to_marshal = {
 		infantry_power = 0.10
+		land_maintenance_modifier = 0.03
 	}
 	quality_education = {
 		army_tradition = 0.5
 	}
 	finest_of_horses = {
 		cavalry_power = 0.15
+		land_maintenance_modifier = 0.03
 	}
 	train_em_again = {
 		infantry_power = 0.10
+		land_maintenance_modifier = 0.03
 	}
 	put_pros_in_charge = {
 		yearly_army_professionalism = 0.01
@@ -725,6 +796,7 @@ quality_ideas =
 	}
 	massed_battery = {
 		artillery_power = 0.1
+		land_maintenance_modifier = 0.03
 	}
 
 	ai_will_do = 
@@ -1342,6 +1414,7 @@ wehrpflicht0 =
 	}		
 		trigger = 
 		{
+			mil_tech = 12
 			NOT = 
 			{
 				has_idea_group = stehendesheer0
@@ -1356,7 +1429,7 @@ wehrpflicht0 =
 	
 	wehrpflicht2 = 
 	{	
-		land_morale = 0.10		
+		land_morale = 0.125		
 	}
 	
 	wehrpflicht1 = 
@@ -1366,12 +1439,12 @@ wehrpflicht0 =
 	
 	wehrpflicht4 = 
 	{
-		army_tradition = 0.75	
+		army_tradition = 1	
 	}
 	
 	wehrpflicht5 = 
 	{
-		garrison_size = 0.35	
+		garrison_size = 0.5	
 	}
 	
 	wehrpflicht6 = 
@@ -1381,8 +1454,7 @@ wehrpflicht0 =
 	
 	wehrpflicht7 = 
 	{
-		# this idea's bonuses are handled via on actions and events
-		# local regiment costs reduced to floor of 20%
+		discipline = 0.05
 	}
 	
 	ai_will_do = 
@@ -1485,6 +1557,7 @@ soldnerheer0 =
 	
 	trigger = 
 	{
+		mil_tech = 12
 		NOT = 
 		{
 			has_idea_group = stehendesheer0
@@ -1634,11 +1707,12 @@ stehendesheer0 =
 
 	bonus = 
 	{
-		discipline = 0.05
+		discipline = 0.075
 	}
 	
 	trigger = 
 	{
+		mil_tech = 12
 		NOT = 
 		{
 			has_idea_group = soldnerheer0
@@ -1648,7 +1722,7 @@ stehendesheer0 =
 	
 	stehendesheer1 = 
 	{		
-		cavalry_shock = 0.1
+		cavalry_shock = 0.25
 	}
 	
 	stehendesheer2 = 
@@ -1663,12 +1737,12 @@ stehendesheer0 =
 	
 	stehendesheer4 = 
 	{
-		yearly_army_professionalism = 0.01	
+		yearly_army_professionalism = 0.025	
 	}
 	
 	stehendesheer5 = 
 	{		
-		infantry_fire = 0.1
+		infantry_fire = 0.25
 	}
 	
 	stehendesheer6 = 
@@ -1678,7 +1752,7 @@ stehendesheer0 =
 	
 	stehendesheer7 = 
 	{
-		artillery_fire = 0.1
+		artillery_fire = 0.25
 	}
 
 	ai_will_do = 
@@ -1788,7 +1862,7 @@ fire0 =
 	
 	bonus = 
 	{
-		fire_damage = 0.20
+		fire_damage = 0.15
 	}		
 	
 	fire1 = 
@@ -1924,7 +1998,7 @@ shock0 =
 	
 	bonus = 
 	{
-		shock_damage = 0.2	
+		shock_damage = 0.15	
 	}		
 	
 	shock2 = 

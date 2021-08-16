@@ -1420,7 +1420,7 @@ monarchie0 =
 
 	bonus =
 	{
-		max_absolutism = 15
+		stability_cost_modifier = -0.25
 	}
 
 	trigger =
@@ -1431,20 +1431,17 @@ monarchie0 =
 
 	monarchie1 =
 	{
-		# <<WIKI>> decision = monarchie_dec
-		# <<WIKI>> elective_monarchy_add_buff = yes
+		legitimacy = 1
 	}
 
 	monarchie2 =
 	{
-		heir_chance = 0.25
-		army_tradition_decay = -0.01
+		heir_chance = 0.5
 	}
 
 	monarchie3 =
 	{
-		same_culture_advisor_cost = -0.25
-		legitimacy = 1
+		same_culture_advisor_cost = -0.3
 	}
 
 	monarchie4 =
@@ -1456,19 +1453,16 @@ monarchie0 =
 	monarchie5 =
 	{
 		yearly_absolutism = 1.0
-		nobles_loyalty_modifier = 0.1
 	}
 
 	monarchie6 =
 	{
-		ae_impact = -0.1
-		discovered_relations_impact = -0.1
+		ae_impact = -0.15
 	}
 
 	monarchie7 =
 	{
-		harsh_treatment_cost = -0.25
-		prestige = 0.5
+		max_absolutism = 15
 	}
 
 
@@ -1520,8 +1514,7 @@ republik0 =
 
 	bonus =
 	{
-		reduced_liberty_desire = 5
-		candidate_random_bonus = 1
+		candidate_random_bonus = 2
 	}
 
 	trigger =
@@ -1540,13 +1533,11 @@ republik0 =
 
 	republik2 =
 	{
-		relation_with_heretics = 20
-		tolerance_heretic = 1
+		tolerance_heretic = 2
 	}
 
 	republik3 =
 	{
-		global_unrest = -1
 		reelection_cost = -0.1
 	}
 
@@ -1558,20 +1549,19 @@ republik0 =
 
 	republik5 =
 	{
-		diplomats = 1
-		election_cycle = -1
+		diplomats = 2
 	}
 
 	republik6 =
 	{
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.125
 		burghers_loyalty_modifier = 0.1
 	}
 
 	republik7 =
 	{
 		reform_progress_growth = 0.2
-		republican_tradition = 0.3
+		republican_tradition = 0.2
 	}
 
 	ai_will_do =
@@ -1792,14 +1782,14 @@ religious_ideas =
 		}
 	}
 
-	deus_vult =
-	{
-		cb_on_religious_enemies = yes
-	}
-
 	missionary_schools =
 	{
 		missionaries = 2
+	}
+
+	deus_vult =
+	{
+		cb_on_religious_enemies = yes
 	}
 
 	church_attendance_duty =
