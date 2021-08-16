@@ -6,174 +6,74 @@
 country_event = {
 
 	id = improve_development_event.3
-	title = flogi_ideas.32
-	desc = flogi_ideas.33
-
+	title = custom_ideas.32
+	desc = custom_ideas.33
 	picture = CITY_DEVELOPMENT_eventPicture
 
-
-	is_triggered_only = yes
-
+	mean_time_to_happen = {
+		months = 30
+	}
 
 	option = {
-		name = "flogi_ideas.34"
+		name = "custom_ideas.34"
 
+		add_years_of_income = -0.15
+		add_adm_power = -30
 
-
-			add_years_of_income = -0.15
-
-			random_owned_province = {
+		random_owned_province = {
 			limit = {
 				is_state = yes
-				}
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-
 			}
-
-
-			if = {
-			limit = { total_development = 50 }
-			add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-				}
-
-
-
-			if = {
-			limit = { total_development = 100 }
-			add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-				}
-
-
-			if = {
-			limit = { total_development = 150 }
-			add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-				}
-
-
-			if = {
-			limit = { total_development = 250 }
-			add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-
-
-
-			if = {
-			limit = { total_development = 400 }
-			add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-
-
-			if = {
-			limit = { total_development = 500 }
-			add_treasury = -250
-			#add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-			if = {
-			limit = { total_development = 700 }
-			add_treasury = -250
-			#add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-
-			if = {
-			limit = { total_development = 800 }
-			add_treasury = -250
-			#add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-
-			if = {
-			limit = { total_development = 1000 }
-			add_treasury = -250
-			#add_years_of_income = -0.15
-			random_owned_province = {
-			limit = {
-				is_state = yes
-				}
-
-			add_base_tax = 1
-			add_base_production = 1
-			add_base_manpower = 1
-						}
-
-				}
-
+			add_base_tax = 3
 		}
+	}
+
+	option = {
+		name = "custom_ideas.35"
+
+		add_years_of_income = -0.15
+		add_dip_power = -40
+
+		random_owned_province = {
+			limit = {
+				is_state = yes
+			}
+			add_base_production = 3
+		}
+	}
+
+	option = {
+		name = "custom_ideas.36"
+
+		add_years_of_income = -0.15
+		add_mil_power = -40
+
+		random_owned_province = {
+			limit = {
+				is_state = yes
+			}
+			add_base_manpower = 3
+		}
+	}
+
+	option = {
+		name = "custom_ideas.37"
+
+		add_years_of_income = -0.5
+		add_adm_power = -33
+		add_dip_power = -33
+		add_mil_power = -33
+
+		capital_scope = {
+			add_base_manpower = 1
+			add_base_production = 1
+			add_base_tax = 1
+		}
+	}
+
+	option = {
+		name = "custom_ideas.38"
+
+		add_prestige = 1
+	}
 }
