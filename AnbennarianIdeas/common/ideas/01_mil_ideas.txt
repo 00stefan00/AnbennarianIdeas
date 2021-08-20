@@ -188,7 +188,7 @@ defensive_ideas =
 ####### Fortress
 ########################################################
 
-festung0 = 
+fortress_custom_ideas = 
 {
 	category = MIL
 
@@ -396,7 +396,7 @@ naval_ideas = {
 ####### General Staff
 ########################################################
 
-generalstab0 = 
+generall_staff_custom_ideas = 
 {
 	category = MIL
 
@@ -996,7 +996,7 @@ quantity_ideas =
 ####### Tactical Ideas
 ########################################################
 
-formation0 = 
+tactical_custom_ideas = 
 {
 	category = MIL
 
@@ -1118,7 +1118,7 @@ formation0 =
 ####### Weapons Quality
 ########################################################
 
-waffenqualitat0 = 
+weapon_quality_custom_ideas = 
 {
 	category = MIL
 
@@ -1244,7 +1244,7 @@ waffenqualitat0 =
 ####### War Production
 ########################################################
 
-kriegsproduktion0 = 
+war_production_custom_ideas = 
 {
 	category = MIL
 

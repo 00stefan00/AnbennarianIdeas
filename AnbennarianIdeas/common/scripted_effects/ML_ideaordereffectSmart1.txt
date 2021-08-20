@@ -15,17 +15,17 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = fire0 }                 Addfire0 = yes }                             #Fire Ideas
  	 if = { limit = { has_idea_group = stehendesheer0 }        Addstehendesheer0 = yes }                    #Standing Army
  	 if = { limit = { has_idea_group = soldnerheer0 }          Addsoldnerheer0 = yes }                      #Mercenary Ideas
- 	 if = { limit = { has_idea_group = flottenbasis0 }         Addflottenbasis0 = yes }                     #Fleet Base Ideas
+ 	 if = { limit = { has_idea_group = fleet_base_custom_ideas }         Addfleet_base_custom_ideas = yes }                     #Fleet Base Ideas
  	 if = { limit = { has_idea_group = innovativeness_ideas }  Addinnovativeness_ideas = yes }              #Innovative Ideas
- 	 if = { limit = { has_idea_group = waffenqualitat0 }       Addwaffenqualitat0 = yes }                   #Weapon Quality Ideas
+ 	 if = { limit = { has_idea_group = weapon_quality_custom_ideas }       Addweapon_quality_custom_ideas = yes }                   #Weapon Quality Ideas
  	 if = { limit = { has_idea_group = coptic0 }               Addcoptic0 = yes }                           #Coptic Ideas
  	 if = { limit = { has_idea_group = republik0 }             Addrepublik0 = yes }                         #Republican Ideas
- 	 if = { limit = { has_idea_group = zentra0 }               Addzentra0 = yes }                           #Centralization
+ 	 if = { limit = { has_idea_group = centralisation_custom_ideas }               Addcentralisation_custom_ideas = yes }                           #Centralization
  	 if = { limit = { has_idea_group = orthodox0 }             Addorthodox0 = yes }                         #Orthodox Ideas
- 	 if = { limit = { has_idea_group = kolonialimperium0 }     Addkolonialimperium0 = yes }                 #Colonial Empire Ideas
- 	 if = { limit = { has_idea_group = handel0 }               Addhandel0 = yes }                           #Light Ship Focus
+ 	 if = { limit = { has_idea_group = colonial_empire_custom_ideas }     Addcolonial_empire_custom_ideas = yes }                 #Colonial Empire Ideas
+ 	 if = { limit = { has_idea_group = trade_ship_custom_ideas }               Addtrade_ship_custom_ideas = yes }                           #Light Ship Focus
  	 if = { limit = { has_idea_group = expansion_ideas }       Addexpansion_ideas = yes }                   #Expansion Ideas
- 	 if = { limit = { has_idea_group = dezentra0 }             Adddezentra0 = yes }                         #Decentralization
+ 	 if = { limit = { has_idea_group = decentralisation_custom_ideas }             Adddecentralisation_custom_ideas = yes }                         #Decentralization
  	 if = { limit = { has_idea_group = justice0 }               Addjustice0 = yes }                           #Jurisprudence Ideas
  	 if = { limit = { has_idea_group = protestant0 }           Addprotestant0 = yes }                       #Protestant Ideas
  	 if = { limit = { has_idea_group = jew0 }                  Addjew0 = yes }                              #Jewish Ideas
@@ -36,29 +36,29 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = islam0 }                Addislam0 = yes }                            #Islam Ideas
  	 if = { limit = { has_idea_group = tengri0 }               Addtengri0 = yes }                           #Tengrism Ideas
  	 if = { limit = { has_idea_group = hindu0 }                Addhindu0 = yes }                            #Dharmic Ideas
- 	 if = { limit = { has_idea_group = propaganda0 }           Addpropaganda0 = yes }                       #Propaganda Ideas
- 	 if = { limit = { has_idea_group = gesellschaft0 }         Addgesellschaft0 = yes }                     #Society Ideas
+ 	 if = { limit = { has_idea_group = propaganda_custom_ideas }           Addpropaganda_custom_ideas = yes }                       #Propaganda Ideas
+ 	 if = { limit = { has_idea_group = society_custom_ideas }         Addsociety_custom_ideas = yes }                     #Society Ideas
  	 if = { limit = { has_idea_group = health0 }           Addhealth0 = yes }                       #Health Ideas
  	 if = { limit = { has_idea_group = feti0 }                 Addfeti0 = yes }                             #Fetishist Ideas
- 	 if = { limit = { has_idea_group = gross0 }                Addgross0 = yes }                            #Heavy Ship Focus
+ 	 if = { limit = { has_idea_group = heavy_ship_custom_ideas }                Addheavy_ship_custom_ideas = yes }                            #Heavy Ship Focus
  	 if = { limit = { has_idea_group = spy_ideas }             Addspy_ideas = yes }                         #Espionage Ideas
  	 if = { limit = { has_idea_group = assimilation0 }         Addassimilation0 = yes }                     #Assimilation Ideas
  	 if = { limit = { has_idea_group = norse0 }                Addnorse0 = yes }                            #Norse Ideas
  	 if = { limit = { has_idea_group = budda0 }                Addbudda0 = yes }                            #Buddhist Ideas
- 	 if = { limit = { has_idea_group = galle0 }                Addgalle0 = yes }                            #Galley Focus
+ 	 if = { limit = { has_idea_group = galley_ship_custom_ideas }                Addgalley_ship_custom_ideas = yes }                            #Galley Focus
  	 if = { limit = { has_idea_group = mesoam0 }               Addmesoam0 = yes }                           #Mayan Ideas
  	 if = { limit = { has_idea_group = administrative_ideas }  Addadministrative_ideas = yes }              #Administrative Ideas
- 	 if = { limit = { has_idea_group = festung0 }              Addfestung0 = yes }                          #Fortress Ideas
+ 	 if = { limit = { has_idea_group = fortress_custom_ideas }              Addfortress_custom_ideas = yes }                          #Fortress Ideas
  	 if = { limit = { has_idea_group = development0 }          Adddevelopment0 = yes }                      #Development Ideas
  	 if = { limit = { has_idea_group = humanist_ideas }        Addhumanist_ideas = yes }                    #Humanist Ideas
  	 if = { limit = { has_idea_group = religious_ideas }       Addreligious_ideas = yes }                   #Religious Ideas
  	 if = { limit = { has_idea_group = wehrpflicht0 }          Addwehrpflicht0 = yes }                      #Conscription Ideas
  	 if = { limit = { has_idea_group = inti0 }                 Addinti0 = yes }                             #Inti Ideas
  	 if = { limit = { has_idea_group = katholisch0 }           Addkatholisch0 = yes }                       #Catholic Ideas
- 	 if = { limit = { has_idea_group = generalstab0 }          Addgeneralstab0 = yes }                      #General Staff Ideas
+ 	 if = { limit = { has_idea_group = generall_staff_custom_ideas }          Addgenerall_staff_custom_ideas = yes }                      #General Staff Ideas
  	 if = { limit = { has_idea_group = defensive_ideas }       Adddefensive_ideas = yes }                   #Defensive Ideas
  	 if = { limit = { has_idea_group = zoro0 }                 Addzoro0 = yes }                             #Zororastrian Ideas
- 	 if = { limit = { has_idea_group = formation0 }            Addformation0 = yes }                        #Tactical Ideas
+ 	 if = { limit = { has_idea_group = tactical_custom_ideas }            Addtactical_custom_ideas = yes }                        #Tactical Ideas
  	 if = { limit = { has_idea_group = horde0 }                Addhorde0 = yes }                            #Horde Ideas
  	 if = { limit = { has_idea_group = science0 }              Addscience0 = yes }                          #Dynastic Ideas
  	 if = { limit = { has_idea_group = ancli0 }                Addancli0 = yes }                            #Anglican Ideas
@@ -66,7 +66,7 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = shock0 }                Addshock0 = yes }                            #Shock Ideas
  	 if = { limit = { has_idea_group = trade_ideas }           Addtrade_ideas = yes }                       #Trade Ideas
  	 if = { limit = { has_idea_group = aristo0 }               Addaristo0 = yes }                           #Theocracy Ideas
- 	 if = { limit = { has_idea_group = kriegsproduktion0 }     Addkriegsproduktion0 = yes }                 #War Production Ideas
+ 	 if = { limit = { has_idea_group = war_production_custom_ideas }     Addwar_production_custom_ideas = yes }                 #War Production Ideas
  	 if = { limit = { has_idea_group = animist0 }              Addanimist0 = yes }                          #Animist Ideas
  	 if = { limit = { has_idea_group = quantity_ideas }        Addquantity_ideas = yes }                    #Quantity Ideas
  }

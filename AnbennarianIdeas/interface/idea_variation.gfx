@@ -241,7 +241,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_festung0"
+		name = "GFX_idea_fortress_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_festung.tga"
 		noOfFrames = 1
 
@@ -249,7 +249,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_flottenbasis0"
+		name = "GFX_idea_fleet_base_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_flottenbasis.tga"
 		noOfFrames = 1
 
@@ -281,7 +281,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_kolonialimperium0"
+		name = "GFX_idea_colonial_empire_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_kolonialimperium.tga"
 		noOfFrames = 1
 
@@ -289,7 +289,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_kriegsproduktion0"
+		name = "GFX_idea_war_production_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_kriegsproduktion.tga"
 		noOfFrames = 1
 
@@ -305,7 +305,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_propaganda0"
+		name = "GFX_idea_propaganda_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_propaganda.tga"
 		noOfFrames = 1
 
@@ -337,7 +337,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_waffenqualitat0"
+		name = "GFX_idea_weapon_quality_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_waffenqualitat.tga"
 		noOfFrames = 1
 
@@ -345,7 +345,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_generalstab0"
+		name = "GFX_idea_generall_staff_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_generalstab.tga"
 		noOfFrames = 1
 
@@ -361,7 +361,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_gesellschaft0"
+		name = "GFX_idea_society_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_gesellschaft.tga"
 		noOfFrames = 1
 
@@ -411,7 +411,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_gross0"
+		name = "GFX_idea_heavy_ship_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_gross.tga"
 		noOfFrames = 1
 
@@ -419,7 +419,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_galle0"
+		name = "GFX_idea_galley_ship_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_galle.tga"
 		noOfFrames = 1
 
@@ -427,7 +427,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_handel0"
+		name = "GFX_idea_trade_ship_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_handel.tga"
 		noOfFrames = 1
 
@@ -499,7 +499,7 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_formation0"
+		name = "GFX_idea_tactical_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_formation.tga"
 		noOfFrames = 1
 
@@ -570,14 +570,14 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_zentra0"
+		name = "GFX_idea_centralisation_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_zentralismus.tga"
 		noOfFrames = 1
 
 		effectFile = "gfx/FX/buttonstate_linear.lua"
 	}
 	spriteType = {
-		name = "GFX_idea_dezentra0"
+		name = "GFX_idea_decentralisation_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_dezentralismus.tga"
 		noOfFrames = 1
 

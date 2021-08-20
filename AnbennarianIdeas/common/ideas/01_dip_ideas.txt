@@ -180,7 +180,7 @@ assimilation0 =
 ####### Colonial Empire
 ########################################################
 
-kolonialimperium0 =
+colonial_empire_custom_ideas =
 {
 	category = DIP
 
@@ -352,7 +352,7 @@ kolonialimperium0 =
 			OR =
 			{
 				has_idea_group = maritime_ideas
-				has_idea_group = flottenbasis0
+				has_idea_group = fleet_base_custom_ideas
 			}
 		}
 
@@ -920,7 +920,7 @@ exploration_ideas =
 ####### Fleet Base
 ########################################################
 
-flottenbasis0 =
+fleet_base_custom_ideas =
 {
 	category = DIP
 
@@ -1310,149 +1310,6 @@ influence_ideas =
 }
 
 ########################################################
-####### Kingdom Ideas
-########################################################
-
-konigreich0 =
-{
-	category = DIP
-
-	bonus =
-	{
-		land_morale = 0.025
-		discipline = 0.015
-	}
-
-	trigger =
-	{
-		government_rank = 1
-		government_rank = 2
-		NOT =
-		{
-			OR =
-			{
-				government_rank = 3
-				is_emperor = yes
-			}
-		}
-	}
-
-	konigreich1 =
-	{
-		prestige_decay = -0.01
-		# <<WIKI>> decision = konigreich_dec
-	}
-
-	konigreich2 =
-	{
-		land_forcelimit = 5
-		# <<WIKI>> add_age_forcelimit_land = 10
-	}
-
-	konigreich3 =
-	{
-		global_autonomy = -0.025
-	}
-
-	konigreich4 =
-	{
-		nobles_loyalty_modifier = 0.05
-		peasants_loyalty_modifier = 0.05
-		state_governing_cost = -0.025
-	}
-
-	konigreich5 =
-	{
-		naval_forcelimit = 10
-		# <<WIKI>> add_age_forcelimit_naval = 20
-	}
-
-	konigreich6 =
-	{
-		autonomy_change_time = -0.25
-		harsh_treatment_cost = -0.25
-	}
-
-	konigreich7 =
-	{
-		diplomatic_upkeep = 1
-		# <<WIKI>> add_cb = cb_herzog
-	}
-
-	ai_will_do =
-	{
-		factor = 10
-		modifier =
-		{
-			factor = 3
-			total_development = 500
-		}
-
-		modifier =
-		{
-			factor = 4
-			total_development = 700
-		}
-
-		modifier =
-		{
-			factor = 5
-			total_development = 800
-		}
-
-		modifier =
-		{
-			factor = 6
-			total_development = 1000
-		}
-
-		modifier =
-		{
-			factor = 5
-			government = monarchy
-		}
-
-		modifier =
-		{
-			factor = 2.5
-			num_of_ports = 25
-		}
-
-		modifier =
-		{
-			factor = 2
-			OR =
-			{
-				num_of_heavy_ship = 12
-				num_of_light_ship = 18
-				num_of_galley = 28
-			}
-		}
-
-		modifier =
-		{
-			factor = 2
-			personality = ai_diplomat
-		}
-
-		modifier =
-		{
-			factor = 2
-			personality = ai_militarist
-		}
-
-		modifier =
-		{
-			factor = 4.5
-			any_neighbor_country =
-			{
-				is_rival = ROOT
-			}
-		}
-	}
-}
-
-########################################################
 ####### Maritime
 ########################################################
 
@@ -1676,7 +1533,7 @@ nationalismus0 =
 ####### Propaganda
 ########################################################
 
-propaganda0 =
+propaganda_custom_ideas =
 {
 	category = DIP
 
@@ -1777,7 +1634,7 @@ propaganda0 =
 ####### Society
 ########################################################
 
-gesellschaft0 =
+society_custom_ideas =
 {
 	category = DIP
 
@@ -2086,7 +1943,7 @@ trade_ideas =
 ####### Heavy Ship
 ########################################################
 
-gross0 =
+heavy_ship_custom_ideas =
 {
 	category = DIP
 
@@ -2095,8 +1952,8 @@ gross0 =
 		primitives = no
 		NOT =
 		{
-			has_idea_group = handel0
-			has_idea_group = galle0
+			has_idea_group = trade_ship_custom_ideas
+			has_idea_group = galley_ship_custom_ideas
 		}
 	}
 
@@ -2216,7 +2073,7 @@ gross0 =
 ####### Galley
 ########################################################
 
-galle0 =
+galley_ship_custom_ideas =
 {
 	category = DIP
 
@@ -2226,8 +2083,8 @@ galle0 =
 
 		NOT =
 		{
-			has_idea_group = handel0
-			has_idea_group = gross0
+			has_idea_group = trade_ship_custom_ideas
+			has_idea_group = heavy_ship_custom_ideas
 		}
 
 	}
@@ -2332,7 +2189,7 @@ galle0 =
 ####### Light Ship
 ########################################################
 
-handel0 =
+trade_ship_custom_ideas =
 {
 	category = DIP
 
@@ -2341,8 +2198,8 @@ handel0 =
 		primitives = no
 		NOT =
 		{
-			has_idea_group = galle0
-			has_idea_group = gross0
+			has_idea_group = galley_ship_custom_ideas
+			has_idea_group = heavy_ship_custom_ideas
 		}
 	}
 
@@ -2436,7 +2293,7 @@ handel0 =
 		modifier =
 		{
 			factor = 1.5
-			has_idea_group = flottenbasis0
+			has_idea_group = fleet_base_custom_ideas
 		}
 
 		modifier =

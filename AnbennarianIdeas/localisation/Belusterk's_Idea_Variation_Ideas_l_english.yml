@@ -845,8 +845,8 @@
 ####### Centralism
 ########################################################
 
- zentra0: "§G***§! Centralization §G***§!"
- zentra0_desc: "Our state is centrally ruled."
+ centralisation_custom_ideas: "§G***§! Centralization §G***§!"
+ centralisation_custom_ideas_desc: "Our state is centrally ruled."
  zentra1: "localised production of goods"
  zentra1_desc: "With our lands centralised, moving products from facility to facility never takes long. This boost our total production."
  zentra2: "Central Production"
@@ -866,8 +866,8 @@
 ####### Decentralism
 ########################################################
 
- dezentra0: "§G***§! Decentralization §G***§!"
- dezentra0_desc: "Our state is ruled decentrally."
+ decentralisation_custom_ideas: "§G***§! Decentralization §G***§!"
+ decentralisation_custom_ideas_desc: "Our state is ruled decentrally."
  dezentra1: "General Expansion"
  dezentra1_desc: "The resources of the state are not concentrated in one area alone. Whole regions will profit."
  dezentra2: "Decentralized Administration"
@@ -912,8 +912,8 @@
 ####### Colonial Empire
 ########################################################
 
- kolonialimperium0: "Colonial Empire"
- kolonialimperium0_desc: "Our country is doing everything to build a mighty colonial empire."
+ colonial_empire_custom_ideas: "Colonial Empire"
+ colonial_empire_custom_ideas_desc: "Our country is doing everything to build a mighty colonial empire."
  kolonialimperium1: "Colonial Rush"
  kolonialimperium1_desc: "When space is running out, we need to hurry to get our hands on the best pieces of land."
  kolonialimperium2: "Autonomous Adventurers"
@@ -996,8 +996,8 @@
 ####### Fleet Base
 ########################################################
 
- flottenbasis0: "Fleet Base"
- flottenbasis0_desc: "We need to acquire fleet bases to further our maritime interests."
+ fleet_base_custom_ideas: "Fleet Base"
+ fleet_base_custom_ideas_desc: "We need to acquire fleet bases to further our maritime interests."
  flottenbasis1: "Coastal Conquest"
  flottenbasis1_desc: "We are a nation that relies on ships and sailors. Maritime travel reality is that a ship needs a place to dock and a sailor needs a place to relax. This is logical and others will see it that way too."
  flottenbasis2: "Boat Bases"
@@ -1122,8 +1122,8 @@
 ####### Propaganda
 ########################################################
 
- propaganda0: "Propaganda"
- propaganda0_desc: "State propaganda rules the media."
+ propaganda_custom_ideas: "Propaganda"
+ propaganda_custom_ideas_desc: "State propaganda rules the media."
  propaganda1: "War Propaganda"
  propaganda1_desc: "Good propaganda can inspire the greatest generals to fight for us, even at lower pay"
  propaganda2: "Hear our stories"
@@ -1143,8 +1143,8 @@
 ####### Society
 ########################################################
 
- gesellschaft0: "Society"
- gesellschaft0_desc: "The state is eager to build a civil society."
+ society_custom_ideas: "Society"
+ society_custom_ideas_desc: "The state is eager to build a civil society."
  gesellschaft1: "War Bonds"
  gesellschaft1_desc: "War bonds will help us to pay our soldiers."
  gesellschaft2: "Exchange Program"
@@ -1214,8 +1214,8 @@
 ####### Heavy Ship
 ########################################################
 
- gross0: "§O***§! Heavy Ship Focus §O***§!"
- gross0_desc: "We will focus our marine power on heavy ships."
+ heavy_ship_custom_ideas: "§O***§! Heavy Ship Focus §O***§!"
+ heavy_ship_custom_ideas_desc: "We will focus our marine power on heavy ships."
  gross1: "Heavy Ship-Shipyards"
  gross1_desc: "The state maintains shipyards in order to produce the ships we desire more efficiently."
  gross2: "Oak Forests for Ships"
@@ -1235,8 +1235,8 @@
 ####### Galley
 ########################################################
 
- galle0: "§O***§! Galley Focus §O***§!"
- galle0_desc: "We will focus our marine power on galleys."
+ galley_ship_custom_ideas: "§O***§! Galley Focus §O***§!"
+ galley_ship_custom_ideas_desc: "We will focus our marine power on galleys."
  galle1: "Like The Harbour of Carthage"
  galle1_desc: "Like the Carthaginians, we need a lot of space for our war fleet. "
  galle2: "Galley-Shipyards"
@@ -1256,8 +1256,8 @@
 ####### Light Ship
 ########################################################
 
- handel0: "§O***§! Light Ship Focus §O***§!"
- handel0_desc: "We will focus our marine power on light ships and transports."
+ trade_ship_custom_ideas: "§O***§! Light Ship Focus §O***§!"
+ trade_ship_custom_ideas_desc: "We will focus our marine power on light ships and transports."
  handel1: "Light Ship-Shipyards"
  handel1_desc: "The state maintains shipyards in order to more efficiently produce the ships we desire."
  handel2: "Oak Forests for Ships"
@@ -1303,8 +1303,8 @@
 ####### Fortress
 ########################################################
 
- festung0: "Fortress"
- festung0_desc: "A strongly fortified position that an enemy takes years to break can be very beneficial for regrouping and planning a counterattack."
+ fortress_custom_ideas: "Fortress"
+ fortress_custom_ideas_desc: "A strongly fortified position that an enemy takes years to break can be very beneficial for regrouping and planning a counterattack."
  festung1: "Defensive Artillery"
  festung1_desc: "Keep the enemy in check with defensive artillery fire."
  festung2: "Building expertise"
@@ -1324,8 +1324,8 @@
 ####### General Staff
 ########################################################
 
- generalstab0: "General Staff"
- generalstab0_desc: "A number of generals and officers keep discussing questions of strategy and tactics to ensure competent generals for our army."
+ generall_staff_custom_ideas: "General Staff"
+ generall_staff_custom_ideas_desc: "A number of generals and officers keep discussing questions of strategy and tactics to ensure competent generals for our army."
  generalstab1: "Theory of Shock Combat"
  generalstab1_desc: "By studying age -old tactics and cavalry maneuvers, our generals become masters at surprising and stunning the enemy."
  generalstab2: "Theory of Ranged Combat"
@@ -1437,8 +1437,8 @@
 ####### Tactical Ideas
 ########################################################
 
- formation0: "Tactical"
- formation0_desc: "Our generals will apply the newest and best tactical shots in order to win the war."
+ tactical_custom_ideas: "Tactical"
+ tactical_custom_ideas_desc: "Our generals will apply the newest and best tactical shots in order to win the war."
  formation1: "Column March"
  formation1_desc: "This way for marching allows us to move faster."
  formation2: "Assault"
@@ -1458,8 +1458,8 @@
 ####### Weapons Quality
 ########################################################
 
- waffenqualitat0: "Weapon Quality"
- waffenqualitat0_desc: "The quality of weapons can be a decisive factor in warfare."
+ weapon_quality_custom_ideas: "Weapon Quality"
+ weapon_quality_custom_ideas_desc: "The quality of weapons can be a decisive factor in warfare."
  waffenqualitat1: "Weapon Production"
  waffenqualitat1_desc: "A coordinated production of weapons is crucial to equipping a big army."
  waffenqualitat2: "Quality Infantry Weapons"
@@ -1479,8 +1479,8 @@
 ####### War Production
 ########################################################
  
- kriegsproduktion0: "War Production"
- kriegsproduktion0_desc: "The reality of conflict sometimes forces you to reorganize the economy for the needs of war."
+ war_production_custom_ideas: "War Production"
+ war_production_custom_ideas_desc: "The reality of conflict sometimes forces you to reorganize the economy for the needs of war."
  kriegsproduktion1: "Infantry Weapon Manufactory Production"
  kriegsproduktion1_desc: "Producing infantry weapons in manufactories is much cheaper than producing them independently."
  kriegsproduktion2: "Professional Horse Breeding"

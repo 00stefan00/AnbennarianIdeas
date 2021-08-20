@@ -665,10 +665,10 @@ Addtote0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = tote7
 		if = { limit = { has_idea = tote7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addzentra0 = {
+Addcentralisation_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  NOT = { 	has_idea_group = dezentra0 } 	  }
-	add_idea_group = zentra0	} #Centralization
+	if = { limit = {  NOT = { 	has_idea_group = decentralisation_custom_ideas } 	  }
+	add_idea_group = centralisation_custom_ideas	} #Centralization
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = zentra1
 		if = { limit = { has_idea = zentra1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = zentra2
@@ -684,10 +684,10 @@ Addzentra0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = zentra7
 		if = { limit = { has_idea = zentra7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Adddezentra0 = {
+Adddecentralisation_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  NOT = { 	has_idea_group = zentra0 } 	  }
-	add_idea_group = dezentra0	} #Decentralization
+	if = { limit = {  NOT = { 	has_idea_group = centralisation_custom_ideas } 	  }
+	add_idea_group = decentralisation_custom_ideas	} #Decentralization
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = dezentra1
 		if = { limit = { has_idea = dezentra1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = dezentra2
@@ -722,10 +722,10 @@ Addassimilation0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = assimilation7
 		if = { limit = { has_idea = assimilation7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addkolonialimperium0 = {
+Addcolonial_empire_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = kolonialimperium0	} #Colonial Empire Ideas
+	add_idea_group = colonial_empire_custom_ideas	} #Colonial Empire Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kolonialimperium2
 		if = { limit = { has_idea = kolonialimperium2 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kolonialimperium1
@@ -798,10 +798,10 @@ Addexploration_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = global_empire
 		if = { limit = { has_idea = global_empire } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addflottenbasis0 = {
+Addfleet_base_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = flottenbasis0	} #Fleet Base Ideas
+	add_idea_group = fleet_base_custom_ideas	} #Fleet Base Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = flottenbasis1
 		if = { limit = { has_idea = flottenbasis1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = flottenbasis2
@@ -912,10 +912,10 @@ Addnationalismus0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = nationalismus7
 		if = { limit = { has_idea = nationalismus7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addpropaganda0 = {
+Addpropaganda_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = propaganda0	} #Propaganda Ideas
+	add_idea_group = propaganda_custom_ideas	} #Propaganda Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = propaganda1
 		if = { limit = { has_idea = propaganda1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = propaganda2
@@ -931,10 +931,10 @@ Addpropaganda0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = propaganda7
 		if = { limit = { has_idea = propaganda7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addgesellschaft0 = {
+Addsociety_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = gesellschaft0	} #Society Ideas
+	add_idea_group = society_custom_ideas	} #Society Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = gesellschaft1
 		if = { limit = { has_idea = gesellschaft1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = gesellschaft2
@@ -969,10 +969,10 @@ Addtrade_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = fast_negotiations
 		if = { limit = { has_idea = fast_negotiations } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addgross0 = {
+Addheavy_ship_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  primitives = no  NOT = { 	has_idea_group = handel0 has_idea_group = galle0} 	  }
-	add_idea_group = gross0	} #Heavy Ship Focus
+	if = { limit = {  primitives = no  NOT = { 	has_idea_group = trade_ship_custom_ideas has_idea_group = galley_ship_custom_ideas} 	  }
+	add_idea_group = heavy_ship_custom_ideas	} #Heavy Ship Focus
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = gross1
 		if = { limit = { has_idea = gross1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = gross2
@@ -988,10 +988,10 @@ Addgross0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = gross7
 		if = { limit = { has_idea = gross7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addgalle0 = {
+Addgalley_ship_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  primitives = no  NOT = { 	has_idea_group = handel0 has_idea_group = gross0} 	  }
-	add_idea_group = galle0	} #Galley Focus
+	if = { limit = {  primitives = no  NOT = { 	has_idea_group = trade_ship_custom_ideas has_idea_group = heavy_ship_custom_ideas} 	  }
+	add_idea_group = galley_ship_custom_ideas	} #Galley Focus
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = galle1
 		if = { limit = { has_idea = galle1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = galle2
@@ -1007,10 +1007,10 @@ Addgalle0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = galle7
 		if = { limit = { has_idea = galle7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addhandel0 = {
+Addtrade_ship_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  primitives = no  NOT = { 	has_idea_group = galle0 has_idea_group = gross0} 	  }
-	add_idea_group = handel0	} #Light Ship Focus
+	if = { limit = {  primitives = no  NOT = { 	has_idea_group = galley_ship_custom_ideas has_idea_group = heavy_ship_custom_ideas} 	  }
+	add_idea_group = trade_ship_custom_ideas	} #Light Ship Focus
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = handel1
 		if = { limit = { has_idea = handel1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = handel2
@@ -1045,10 +1045,10 @@ Adddefensive_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = improved_foraging
 		if = { limit = { has_idea = improved_foraging } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addfestung0 = {
+Addfortress_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = festung0	} #Fortress Ideas
+	add_idea_group = fortress_custom_ideas	} #Fortress Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = festung1
 		if = { limit = { has_idea = festung1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = festung2
@@ -1064,10 +1064,10 @@ Addfestung0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = festung7
 		if = { limit = { has_idea = festung7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addgeneralstab0 = {
+Addgenerall_staff_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = generalstab0	} #General Staff Ideas
+	add_idea_group = generall_staff_custom_ideas	} #General Staff Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = generalstab1
 		if = { limit = { has_idea = generalstab1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = generalstab2
@@ -1159,10 +1159,10 @@ Addquantity_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = expanded_supply_trains
 		if = { limit = { has_idea = expanded_supply_trains } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addformation0 = {
+Addtactical_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = formation0	} #Tactical Ideas
+	add_idea_group = tactical_custom_ideas	} #Tactical Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = formation1
 		if = { limit = { has_idea = formation1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = formation2
@@ -1178,10 +1178,10 @@ Addformation0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = formation7
 		if = { limit = { has_idea = formation7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addwaffenqualitat0 = {
+Addweapon_quality_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = waffenqualitat0	} #Weapon Quality Ideas
+	add_idea_group = weapon_quality_custom_ideas	} #Weapon Quality Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = waffenqualitat1
 		if = { limit = { has_idea = waffenqualitat1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = waffenqualitat2
@@ -1197,10 +1197,10 @@ Addwaffenqualitat0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = waffenqualitat7
 		if = { limit = { has_idea = waffenqualitat7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addkriegsproduktion0 = {
+Addwar_production_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
 	if = { limit = {  always = yes 	  }
-	add_idea_group = kriegsproduktion0	} #War Production Ideas
+	add_idea_group = war_production_custom_ideas	} #War Production Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kriegsproduktion1
 		if = { limit = { has_idea = kriegsproduktion1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kriegsproduktion2
@@ -1347,35 +1347,35 @@ Addshock0 = {
 #Addmesoam0              Mayan Ideas
 #Addinti0                Inti Ideas
 #Addtote0                Totemist Ideas
-#Addzentra0              Centralization
-#Adddezentra0            Decentralization
+#Addcentralisation_custom_ideas              Centralization
+#Adddecentralisation_custom_ideas            Decentralization
 #Addassimilation0        Assimilation Ideas
-#Addkolonialimperium0    Colonial Empire Ideas
+#Addcolonial_empire_custom_ideas    Colonial Empire Ideas
 #Addscience0             Dynastic Ideas
 #Addspy_ideas            Espionage Ideas
 #Addexploration_ideas    Exploration Ideas
-#Addflottenbasis0        Fleet Base Ideas
+#Addfleet_base_custom_ideas        Fleet Base Ideas
 #Addimperialismus0       Imperialism Ideas
 #Addinfluence_ideas      Influence Ideas
 #Addkonigreich0          Imperialist Ambition
 #Addmaritime_ideas       Maritime Ideas
 #Addnationalismus0       Nationalism Ideas
-#Addpropaganda0          Propaganda Ideas
-#Addgesellschaft0        Society Ideas
+#Addpropaganda_custom_ideas          Propaganda Ideas
+#Addsociety_custom_ideas        Society Ideas
 #Addtrade_ideas          Trade Ideas
-#Addgross0               Heavy Ship Focus
-#Addgalle0               Galley Focus
-#Addhandel0              Light Ship Focus
+#Addheavy_ship_custom_ideas               Heavy Ship Focus
+#Addgalley_ship_custom_ideas               Galley Focus
+#Addtrade_ship_custom_ideas              Light Ship Focus
 #Adddefensive_ideas      Defensive Ideas
-#Addfestung0             Fortress Ideas
-#Addgeneralstab0         General Staff Ideas
+#Addfortress_custom_ideas             Fortress Ideas
+#Addgenerall_staff_custom_ideas         General Staff Ideas
 #Addmilitarismus0        Militarism Ideas
 #Addoffensive_ideas      Offensive Ideas
 #Addquality_ideas        Quality Ideas
 #Addquantity_ideas       Quantity Ideas
-#Addformation0           Tactical Ideas
-#Addwaffenqualitat0      Weapon Quality Ideas
-#Addkriegsproduktion0    War Production Ideas
+#Addtactical_custom_ideas           Tactical Ideas
+#Addweapon_quality_custom_ideas      Weapon Quality Ideas
+#Addwar_production_custom_ideas    War Production Ideas
 #Addwehrpflicht0         Conscription Ideas
 #Addsoldnerheer0         Mercenary Ideas
 #Addstehendesheer0       Standing Army

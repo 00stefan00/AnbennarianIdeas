@@ -455,7 +455,7 @@ expansion_ideas =
 			{
 				has_idea_group = trade_ideas
 				has_idea_group = maritime_ideas
-				has_idea_group = flottenbasis0
+				has_idea_group = fleet_base_custom_ideas
 			}
 
 			any_known_country =
@@ -5373,7 +5373,7 @@ zoro0 =
 ########################################################
 
 #Centralism0
-zentra0 =
+centralisation_custom_ideas =
 {
 	category = ADM
 
@@ -5381,7 +5381,7 @@ zentra0 =
 	{
 		NOT =
 		{
-			has_idea_group = dezentra0
+			has_idea_group = decentralisation_custom_ideas
 		}
 	}
 
@@ -5490,7 +5490,7 @@ zentra0 =
 ########################################################
 
 #Decentralism0
-dezentra0 =
+decentralisation_custom_ideas =
 {
 	category = ADM
 
@@ -5498,7 +5498,7 @@ dezentra0 =
 		{
 			NOT =
 			{
-				has_idea_group = zentra0
+				has_idea_group = centralisation_custom_ideas
 			}
 
 		}
