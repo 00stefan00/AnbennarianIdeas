@@ -1,0 +1,208 @@
+staff_health_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = generall_staff_custom_ideas
+		has_idea_group = health0
+	}
+	allow = {
+		full_idea_group = generall_staff_custom_ideas
+		full_idea_group = health0
+	}
+	
+	free_leader_pool = 2
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+fortress_staff_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = fortress_custom_ideas
+		has_idea_group = fire0
+	}
+	allow = {
+		full_idea_group = fortress_custom_ideas
+		full_idea_group = fire0
+	}
+	
+	backrow_artillery_damage = 0.125
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+militarismus0_justice_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = militarismus0
+		has_idea_group = justice0
+	}
+	allow = {
+		full_idea_group = militarismus0
+		full_idea_group = justice0
+	}
+	
+	unjustified_demands = -0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+shock0_health_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = shock0
+		has_idea_group = health0
+	}
+	allow = {
+		full_idea_group = shock0
+		full_idea_group = health0
+	}
+	
+	cavalry_cost = -0.125
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+fire0_health_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = fire0
+		has_idea_group = health0
+	}
+	allow = {
+		full_idea_group = fire0
+		full_idea_group = health0
+	}
+	
+	infantry_cost = -0.125
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+central_weaponqual_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = weapon_quality_custom_ideas
+		has_idea_group = centralisation_custom_ideas
+	}
+	allow = {
+		full_idea_group = weapon_quality_custom_ideas
+		full_idea_group = centralisation_custom_ideas
+	}
+	
+	dicipline = 0.06
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+decentral_weaponqual_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = weapon_quality_custom_ideas
+		has_idea_group = decentralisation_custom_ideas
+	}
+	allow = {
+		full_idea_group = weapon_quality_custom_ideas
+		full_idea_group = decentralisation_custom_ideas
+	}
+	
+	morale_of_armies = 0.12
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+tactic_warprod_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = tactical_custom_ideas
+		has_idea_group = war_production_custom_ideas
+	}
+	allow = {
+		full_idea_group = tactical_custom_ideas
+		full_idea_group = war_production_custom_ideas
+	}
+	
+	global_trade_goods_size_modifier = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+tactic_shock_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = tactical_custom_ideas
+		has_idea_group = shock0
+	}
+	allow = {
+		full_idea_group = tactical_custom_ideas
+		full_idea_group = shock0
+	}
+	
+	shock_damage = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+tactic_fire_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = tactical_custom_ideas
+		has_idea_group = fire0
+	}
+	allow = {
+		full_idea_group = tactical_custom_ideas
+		full_idea_group = fire0
+	}
+	
+	fire_damage = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+militarisation_science_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = militarismus0
+		has_idea_group = science0
+	}
+	allow = {
+		full_idea_group = militarismus0
+		full_idea_group = science0
+	}
+	
+	mil_tech_cost_modifier = -0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}

@@ -403,7 +403,7 @@ generall_staff_custom_ideas =
 	bonus = 
 	{		
 		discipline = 0.015
-		free_leader_pool = 2
+		free_leader_pool = 1
 	}
 	
 	generalstab1 = 
@@ -442,7 +442,6 @@ generall_staff_custom_ideas =
 	generalstab7 = 
 	{
 		leader_cost = -0.1
-		# <<WIKI>> Recruit Admiral / General every 10 years
 	}
 	
 	ai_will_do = 
@@ -536,7 +535,7 @@ militarismus0 =
 	
 	militarismus2 = 
 	{
-		land_morale = 0.05
+		land_morale = 0.075
 	}
 	
 	militarismus3 = 
@@ -546,14 +545,12 @@ militarismus0 =
 	
 	militarismus4 = 
 	{
-		# <<WIKI>> add_age_manpower = 5.0
-		global_manpower = 5.0
+		global_manpower = 10.0
 		war_exhaustion = -0.05
 	}
 	
 	militarismus5 = 
 	{
-		# <<WIKI>> elective_monarchy_mil_buff = yes
 		general_cost = -0.25			
 	}
 	
@@ -1128,8 +1125,7 @@ weapon_quality_custom_ideas =
 	}		
 	
 	waffenqualitat1 = 
-	{
-		#Army Tier 2 - 3 Buildings		
+	{	
 		global_trade_goods_size_modifier = 0.075
 	}
 	
@@ -1250,7 +1246,7 @@ war_production_custom_ideas =
 
 	bonus = 
 	{
-		mil_tech_cost_modifier = -0.1	
+		mil_tech_cost_modifier = -0.075	
 	}		
 	
 	kriegsproduktion1 = 

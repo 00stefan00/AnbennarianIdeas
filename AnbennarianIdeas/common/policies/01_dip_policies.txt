@@ -1,0 +1,94 @@
+propaganda_justice_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = propaganda_custom_ideas
+		has_idea_group = justice0
+	}
+	allow = {
+		full_idea_group = propaganda_custom_ideas
+		full_idea_group = justice0
+	}
+	
+	diplomatic_annexation_cost = -0.10
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+colonial_expansion_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = colonial_empire_custom_ideas
+		has_idea_group = expansion_ideas
+	}
+	allow = {
+		full_idea_group = colonial_empire_custom_ideas
+		full_idea_group = expansion_ideas
+	}
+	
+	global_colonial_growth = 25
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+colonial_nationalismus0_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = colonial_empire_custom_ideas
+		has_idea_group = nationalismus0
+	}
+	allow = {
+		full_idea_group = colonial_empire_custom_ideas
+		full_idea_group = nationalismus0
+	}
+	
+	global_colonial_growth = 40
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+assimilation0_society_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = assimilation0
+		has_idea_group = society_custom_ideas
+	}
+	allow = {
+		full_idea_group = assimilation0
+		full_idea_group = society_custom_ideas
+	}
+	
+	tolerance_own = 4
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+assimilation0_society_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = assimilation0
+		has_idea_group = society_custom_ideas
+	}
+	allow = {
+		full_idea_group = assimilation0
+		full_idea_group = society_custom_ideas
+	}
+	
+	tolerance_own = 4
+
+	ai_will_do = {
+		factor = 1	
+	}
+}

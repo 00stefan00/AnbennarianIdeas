@@ -1,0 +1,151 @@
+dev_central_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = development0
+		has_idea_group = centralisation_custom_ideas
+	}
+	allow = {
+		full_idea_group = development0
+		full_idea_group = centralisation_custom_ideas
+	}
+	
+	development_cost = 0.075
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+dev_decentral_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = development0
+		has_idea_group = decentralisation_custom_ideas
+	}
+	allow = {
+		full_idea_group = development0
+		full_idea_group = decentralisation_custom_ideas
+	}
+	
+	development_cost = 0.075
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+dev_stateadmin_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = development0
+		has_idea_group = stateadministration0
+	}
+	allow = {
+		full_idea_group = development0
+		full_idea_group = stateadministration0
+	}
+	
+	governing_capacity = 100
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+dev_monarch_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = development0
+		has_idea_group = monarchie0
+	}
+	allow = {
+		full_idea_group = development0
+		full_idea_group = monarchie0
+	}
+	
+	development_cost = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+dev_republic_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = development0
+		has_idea_group = republik0
+	}
+	allow = {
+		full_idea_group = development0
+		full_idea_group = republik0
+	}
+	
+	development_cost = 0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+health_science_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = health0
+		has_idea_group = science0
+	}
+	allow = {
+		full_idea_group = health0
+		full_idea_group = science0
+	}
+	
+	monarch_lifespan = 0.15
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+justice_propaganda_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = justice0
+		has_idea_group = propaganda_custom_ideas
+	}
+	allow = {
+		full_idea_group = justice0
+		full_idea_group = propaganda_custom_ideas
+	}
+	
+	core_creation = -0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+stateadministration0_science_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = stateadministration0
+		has_idea_group = science0
+	}
+	allow = {
+		full_idea_group = stateadministration0
+		full_idea_group = science0
+	}
+	
+	adm_tech_cost_modifier = -0.1
+
+	ai_will_do = {
+		factor = 1	
+	}
+}

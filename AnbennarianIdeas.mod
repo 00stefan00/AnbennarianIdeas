@@ -1,5 +1,6 @@
 name="AnbennarianIdeas"
 replace_path="common/ideas"
+replace_path="common/policies"
 replace_path="common/building"
 replace_path="common/technologies"
 replace_path="decisions"

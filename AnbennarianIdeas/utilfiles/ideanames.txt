@@ -1,51 +1,51 @@
-administrative_ideas
-development0
-economic_ideas
-expansion_ideas
-health0
-humanist_ideas
-innovativeness_ideas
-justice0
-stateadministration0
-monarchie0
-republik0
-religious_ideas
-centralisation_custom_ideas
-decentralisation_custom_ideas
-
-diplomatic_ideas
-assimilation0
-colonial_empire_custom_ideas
-science0
-spy_ideas
-exploration_ideas
-fleet_base_custom_ideas
-influence_ideas
-imperialismus0
-maritime_ideas
-nationalismus0
-propaganda_custom_ideas
-society_custom_ideas
-trade_ideas
-heavy_ship_custom_ideas
-galley_ship_custom_ideas
-trade_ship_custom_ideas
-
-aristo0
-defensive_ideas
-fortress_custom_ideas
-naval_ideas
-generall_staff_custom_ideas
-militarismus0
-offensive_ideas
-quality_ideas
-quantity_ideas
-tactical_custom_ideas
-weapon_quality_custom_ideas
-war_production_custom_ideas
-fire0
-shock0
-stehendesheer0
-soldnerheer0
-wehrpflicht0
-horde0
+x	administrative_ideas
+4	development0
+x	economic_ideas
+x	expansion_ideas
+5	health0
+x	humanist_ideas
+x	innovativeness_ideas
+3	justice0
+2	stateadministration0
+1	monarchie0
+1	republik0
+x	religious_ideas
+2	centralisation_custom_ideas
+2	decentralisation_custom_ideas
+	
+x	diplomatic_ideas
+1	assimilation0
+2	colonial_empire_custom_ideas
+3	science0
+x	spy_ideas
+x	exploration_ideas
+	fleet_base_custom_ideas
+x	influence_ideas
+	imperialismus0
+x	maritime_ideas
+1	nationalismus0
+2	propaganda_custom_ideas
+1	society_custom_ideas
+x	trade_ideas
+	heavy_ship_custom_ideas
+	galley_ship_custom_ideas
+	trade_ship_custom_ideas
+	
+x	aristo0
+x	defensive_ideas
+1	fortress_custom_ideas
+x	naval_ideas
+2	generall_staff_custom_ideas
+2	militarismus0
+x	offensive_ideas
+x	quality_ideas
+x	quantity_ideas
+3	tactical_custom_ideas
+2	weapon_quality_custom_ideas
+1	war_production_custom_ideas
+2	fire0
+2	shock0
+	stehendesheer0
+	soldnerheer0
+	wehrpflicht0
+x	horde0
