@@ -1,0 +1,38 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+defensive_modifier1_global = {
+	defensiveness = 0.25
+}
+
+defensive_modifier2_global = {
+	defensiveness = 0.5
+}
+
+defensive_modifier3_global = {
+	defensiveness = 0.75
+	fort_maintenance_modifier = 0.5
+}
+
+defensive_modifier4_global = {
+	defensiveness = 1
+	fort_maintenance_modifier = 1
+}
+
+defensive_modifier5_global = {
+	defensiveness = 2
+	fort_maintenance_modifier = 2
+}
+
+defensive_modifier1_capitol = {
+	local_defensiveness = 1
+}
+
+defensive_modifier2_capitol = {
+	local_defensiveness = 2.5
+}
+
+defensive_modifier3_capitol = {
+	local_defensiveness = -0.5
+}
