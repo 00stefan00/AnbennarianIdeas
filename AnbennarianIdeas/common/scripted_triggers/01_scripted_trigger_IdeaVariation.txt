@@ -216,9 +216,9 @@ no_idea_group_7 =
 		tactical_custom_ideas = 7
 		weapon_quality_custom_ideas = 7
 		war_production_custom_ideas = 7
-		wehrpflicht0 = 7
-		soldnerheer0 = 7
-		stehendesheer0 = 7
+		conscription_custom_ideas = 7
+		mercenary_custom_ideas = 7
+		standing_army_custom_ideas = 7
 		fire0 = 7
 		shock0 = 7
 	}

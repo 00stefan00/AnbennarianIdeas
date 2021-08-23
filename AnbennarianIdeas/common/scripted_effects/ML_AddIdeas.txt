@@ -1216,10 +1216,10 @@ Addwar_production_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = kriegsproduktion7
 		if = { limit = { has_idea = kriegsproduktion7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addwehrpflicht0 = {
+Addconscription_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  NOT = { 	has_idea_group = stehendesheer0 has_idea_group = soldnerheer0} 	  }
-	add_idea_group = wehrpflicht0	} #Conscription Ideas
+	if = { limit = {  NOT = { 	has_idea_group = standing_army_custom_ideas has_idea_group = mercenary_custom_ideas} 	  }
+	add_idea_group = conscription_custom_ideas	} #Conscription Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = wehrpflicht3
 		if = { limit = { has_idea = wehrpflicht3 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = wehrpflicht2
@@ -1235,10 +1235,10 @@ Addwehrpflicht0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = wehrpflicht7
 		if = { limit = { has_idea = wehrpflicht7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addsoldnerheer0 = {
+Addmercenary_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  NOT = { 	has_idea_group = stehendesheer0 has_idea_group = wehrpflicht0} 	  }
-	add_idea_group = soldnerheer0	} #Mercenary Ideas
+	if = { limit = {  NOT = { 	has_idea_group = standing_army_custom_ideas has_idea_group = conscription_custom_ideas} 	  }
+	add_idea_group = mercenary_custom_ideas	} #Mercenary Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = soldnerheer1
 		if = { limit = { has_idea = soldnerheer1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = soldnerheer2
@@ -1254,10 +1254,10 @@ Addsoldnerheer0 = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = soldnerheer7
 		if = { limit = { has_idea = soldnerheer7 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 }	 }
-Addstehendesheer0 = {
+Addstanding_army_custom_ideas = {
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} }
-	if = { limit = {  NOT = { 	has_idea_group = soldnerheer0 has_idea_group = wehrpflicht0} 	  }
-	add_idea_group = stehendesheer0	} #Standing Army
+	if = { limit = {  NOT = { 	has_idea_group = mercenary_custom_ideas has_idea_group = conscription_custom_ideas} 	  }
+	add_idea_group = standing_army_custom_ideas	} #Standing Army
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = stehendesheer1
 		if = { limit = { has_idea = stehendesheer1 } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = stehendesheer2
@@ -1376,8 +1376,8 @@ Addshock0 = {
 #Addtactical_custom_ideas           Tactical Ideas
 #Addweapon_quality_custom_ideas      Weapon Quality Ideas
 #Addwar_production_custom_ideas    War Production Ideas
-#Addwehrpflicht0         Conscription Ideas
-#Addsoldnerheer0         Mercenary Ideas
-#Addstehendesheer0       Standing Army
+#Addconscription_custom_ideas         Conscription Ideas
+#Addmercenary_custom_ideas         Mercenary Ideas
+#Addstanding_army_custom_ideas       Standing Army
 #Addfire0                Fire Ideas
 #Addshock0               Shock Ideas

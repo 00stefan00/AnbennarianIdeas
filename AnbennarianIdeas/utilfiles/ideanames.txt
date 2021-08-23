@@ -19,7 +19,7 @@ x	diplomatic_ideas
 3	science0
 x	spy_ideas
 x	exploration_ideas
-	fleet_base_custom_ideas
+3	fleet_base_custom_ideas
 x	influence_ideas
 	imperialismus0
 x	maritime_ideas
@@ -27,9 +27,9 @@ x	maritime_ideas
 2	propaganda_custom_ideas
 1	society_custom_ideas
 x	trade_ideas
-	heavy_ship_custom_ideas
-	galley_ship_custom_ideas
-	trade_ship_custom_ideas
+1	heavy_ship_custom_ideas
+1	galley_ship_custom_ideas
+1	trade_ship_custom_ideas
 	
 x	aristo0
 x	defensive_ideas
@@ -45,7 +45,7 @@ x	quantity_ideas
 1	war_production_custom_ideas
 2	fire0
 2	shock0
-	stehendesheer0
-	soldnerheer0
-	wehrpflicht0
+1s	standing_army_custom_ideas
+1s	mercenary_custom_ideas
+1s	conscription_custom_ideas
 x	horde0

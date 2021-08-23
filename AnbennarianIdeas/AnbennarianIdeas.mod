@@ -4,6 +4,7 @@ replace_path="common/policies"
 replace_path="common/building"
 replace_path="common/technologies"
 replace_path="decisions"
+replace_path="gfx/interface"
 tags={
 	"Historical"
 	"Missions And Decisions"
@@ -12,4 +13,3 @@ tags={
 	"New Nations"
 }
 supported_version="1.31.*.*"
-path="mod/AnbennarianIdeas"
