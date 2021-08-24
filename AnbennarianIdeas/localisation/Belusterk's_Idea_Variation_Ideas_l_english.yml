@@ -1504,8 +1504,8 @@
 ####### Conscription
 ######################################################## 
  
- wehrpflicht0: "§Y***§! Conscription §Y***§!"
- wehrpflicht0_desc: "The general conscription calls every man to arms to fight for his country. Conscripts are not that well trained like professional soldiers but they fight for their homes."
+ conscription_custom_ideas: "§Y***§! Conscription §Y***§!"
+ conscription_custom_ideas_desc: "The general conscription calls every man to arms to fight for his country. Conscripts are not that well trained like professional soldiers but they fight for their homes."
  wehrpflicht1: "General Conscription"
  wehrpflicht1_desc: "All men who can fight are called into service. "
  wehrpflicht2: "We know what we fight for"
@@ -1525,8 +1525,8 @@
 ####### Mercenary Army 
 ######################################################## 
  
- soldnerheer0: "§Y***§! Mercenary §Y***§!"
- soldnerheer0_desc: "An army consisting mainly of mercenaries is quite a task for the treasury but we won't be wasting the lives of our dear population."
+ mercenary_custom_ideas: "§Y***§! Mercenary §Y***§!"
+ mercenary_custom_ideas_desc: "An army consisting mainly of mercenaries is quite a task for the treasury but we won't be wasting the lives of our dear population."
  soldnerheer1: "Free Looting"
  soldnerheer1_desc: "We don't care what the mercenaries do in enemy land. "
  soldnerheer2: "Long Term Contracts"
@@ -1546,8 +1546,8 @@
 ####### Standing Army
 ######################################################## 
 
- stehendesheer0: "§Y***§! Standing Army §Y***§!"
- stehendesheer0_desc: "A standing army may be expensive to maintain, but it is well prepared to fight a war. "
+ standing_army_custom_ideas: "§Y***§! Standing Army §Y***§!"
+ standing_army_custom_ideas_desc: "A standing army may be expensive to maintain, but it is well prepared to fight a war. "
  stehendesheer1: "Specialized Infantry Training "
  stehendesheer1_desc: "Various new implementations and techniques vastly improve the effectiveness of the frontline in a battle, thus making our infantrymen excel in the midst of the fight. "
  stehendesheer2: "Cavalry Round Tactics"

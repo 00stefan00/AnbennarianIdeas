@@ -208,7 +208,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_wehrpflicht0"
+		name = "GFX_idea_conscription_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_wehrpflicht.tga"
 		noOfFrames = 1
 
@@ -216,7 +216,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_stehendesheer0"
+		name = "GFX_idea_standing_army_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_standing_army.tga"
 		noOfFrames = 1
 
@@ -329,7 +329,7 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_soldnerheer0"
+		name = "GFX_idea_mercenary_custom_ideas"
 		texturefile = "gfx//interface//ideas//idea_soldnerheer.tga"
 		noOfFrames = 1
 
