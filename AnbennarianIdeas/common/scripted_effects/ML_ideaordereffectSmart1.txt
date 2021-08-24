@@ -13,8 +13,8 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = konigreich0 }           Addkonigreich0 = yes }                       #Imperialist Ambition
  	 if = { limit = { has_idea_group = imperialismus0 }        Addimperialismus0 = yes }                    #Imperialism Ideas
  	 if = { limit = { has_idea_group = fire0 }                 Addfire0 = yes }                             #Fire Ideas
- 	 if = { limit = { has_idea_group = standing_army_custom_ideas }        Addstanding_army_custom_ideas = yes }                    #Standing Army
- 	 if = { limit = { has_idea_group = mercenary_custom_ideas }          Addmercenary_custom_ideas = yes }                      #Mercenary Ideas
+ 	 if = { limit = { has_idea_group = stehendesheer0 }        Addstehendesheer0 = yes }                    #Standing Army
+ 	 if = { limit = { has_idea_group = soldnerheer0 }          Addsoldnerheer0 = yes }                      #Mercenary Ideas
  	 if = { limit = { has_idea_group = fleet_base_custom_ideas }         Addfleet_base_custom_ideas = yes }                     #Fleet Base Ideas
  	 if = { limit = { has_idea_group = innovativeness_ideas }  Addinnovativeness_ideas = yes }              #Innovative Ideas
  	 if = { limit = { has_idea_group = weapon_quality_custom_ideas }       Addweapon_quality_custom_ideas = yes }                   #Weapon Quality Ideas
@@ -52,7 +52,7 @@ ideaorderSmart1 = {
  	 if = { limit = { has_idea_group = development0 }          Adddevelopment0 = yes }                      #Development Ideas
  	 if = { limit = { has_idea_group = humanist_ideas }        Addhumanist_ideas = yes }                    #Humanist Ideas
  	 if = { limit = { has_idea_group = religious_ideas }       Addreligious_ideas = yes }                   #Religious Ideas
- 	 if = { limit = { has_idea_group = conscription_custom_ideas }          Addconscription_custom_ideas = yes }                      #Conscription Ideas
+ 	 if = { limit = { has_idea_group = wehrpflicht0 }          Addwehrpflicht0 = yes }                      #Conscription Ideas
  	 if = { limit = { has_idea_group = inti0 }                 Addinti0 = yes }                             #Inti Ideas
  	 if = { limit = { has_idea_group = katholisch0 }           Addkatholisch0 = yes }                       #Catholic Ideas
  	 if = { limit = { has_idea_group = generall_staff_custom_ideas }          Addgenerall_staff_custom_ideas = yes }                      #General Staff Ideas

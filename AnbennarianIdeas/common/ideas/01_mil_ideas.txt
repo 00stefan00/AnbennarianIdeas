@@ -1399,7 +1399,7 @@ war_production_custom_ideas =
 ####### Conscription
 ########################################################
 
-conscription_custom_ideas = 
+wehrpflicht0 = 
 {
 	category = MIL
 
@@ -1413,8 +1413,8 @@ conscription_custom_ideas =
 			mil_tech = 12
 			NOT = 
 			{
-				has_idea_group = standing_army_custom_ideas
-				has_idea_group = mercenary_custom_ideas
+				has_idea_group = stehendesheer0
+				has_idea_group = soldnerheer0
 			}
 		}
 	
@@ -1472,9 +1472,9 @@ conscription_custom_ideas =
 			{
 				OR = 
 				{
-					has_idea_group = mercenary_custom_ideas
-					has_idea_group = conscription_custom_ideas
-					has_idea_group = standing_army_custom_ideas
+					has_idea_group = soldnerheer0
+					has_idea_group = wehrpflicht0
+					has_idea_group = stehendesheer0
 				}
 			}
 		}
@@ -1542,7 +1542,7 @@ conscription_custom_ideas =
 ####### Mercenary Army 
 ########################################################
 
-mercenary_custom_ideas = 
+soldnerheer0 = 
 {
 	category = MIL
 
@@ -1556,8 +1556,8 @@ mercenary_custom_ideas =
 		mil_tech = 12
 		NOT = 
 		{
-			has_idea_group = standing_army_custom_ideas
-			has_idea_group = conscription_custom_ideas 
+			has_idea_group = stehendesheer0
+			has_idea_group = wehrpflicht0 
 		}
 	}
 	
@@ -1621,9 +1621,9 @@ mercenary_custom_ideas =
 			{
 				OR = 
 				{
-					has_idea_group = mercenary_custom_ideas
-					has_idea_group = conscription_custom_ideas
-					has_idea_group = standing_army_custom_ideas
+					has_idea_group = soldnerheer0
+					has_idea_group = wehrpflicht0
+					has_idea_group = stehendesheer0
 				}
 			}
 		}
@@ -1697,7 +1697,7 @@ mercenary_custom_ideas =
 ####### Standing Army
 ########################################################
 
-standing_army_custom_ideas = 
+stehendesheer0 = 
 {
 	category = MIL
 
@@ -1711,8 +1711,8 @@ standing_army_custom_ideas =
 		mil_tech = 12
 		NOT = 
 		{
-			has_idea_group = mercenary_custom_ideas
-			has_idea_group = conscription_custom_ideas 
+			has_idea_group = soldnerheer0
+			has_idea_group = wehrpflicht0 
 		}
 	}
 	
@@ -1770,9 +1770,9 @@ standing_army_custom_ideas =
 			{
 				OR = 
 				{
-					has_idea_group = mercenary_custom_ideas
-					has_idea_group = conscription_custom_ideas
-					has_idea_group = standing_army_custom_ideas
+					has_idea_group = soldnerheer0
+					has_idea_group = wehrpflicht0
+					has_idea_group = stehendesheer0
 				}
 			}
 		}
