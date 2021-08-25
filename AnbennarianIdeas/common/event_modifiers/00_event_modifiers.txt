@@ -3,25 +3,25 @@
 ##################################################################################################
 
 defensive_modifier1_global = {
-	defensiveness = 0.25
+	defensiveness = -0.1
 }
 
 defensive_modifier2_global = {
-	defensiveness = 0.5
+	defensiveness = 0.25
 }
 
 defensive_modifier3_global = {
-	defensiveness = 0.75
+	defensiveness = 0.5
 	fort_maintenance_modifier = 0.5
 }
 
 defensive_modifier4_global = {
-	defensiveness = 1
+	defensiveness = 0.75
 	fort_maintenance_modifier = 1
 }
 
 defensive_modifier5_global = {
-	defensiveness = 2
+	defensiveness = 1.5
 	fort_maintenance_modifier = 2
 }
 
