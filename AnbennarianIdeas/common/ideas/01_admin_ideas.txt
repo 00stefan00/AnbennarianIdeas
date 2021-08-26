@@ -130,7 +130,7 @@ development0 =
 
 	bonus =
 	{
-		development_cost = -0.4
+		development_cost = -0.25
 	}
 
 	#development1
@@ -143,13 +143,13 @@ development0 =
 	#development2
 	development2 =
 	{
-		production_efficiency = 0.1
+		production_efficiency = 0.125
 	}
 
 	#development3
 	development3 =
 	{
-		global_tax_modifier = 0.1
+		
 	}
 
 	#development4

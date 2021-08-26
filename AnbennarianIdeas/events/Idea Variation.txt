@@ -82,6 +82,91 @@ country_event = {
 	}
 }
 
+country_event = {
+
+	id = custom_ideagroup_events.4
+	title = custom_ideas.dev2.1
+	desc = custom_ideas.dev2.2
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	mean_time_to_happen = {
+		months = 60
+	}
+
+	trigger = {
+		has_idea = development3
+	}
+
+	option = {
+		name = "custom_ideas.dev2.3"
+
+		random_owned_province = {
+			limit = {
+				is_state = yes
+			}
+			add_province_modifier = {
+				name = state_development_cost_reduction1
+				duration = 365
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = custom_ideagroup_events.5
+	title = custom_ideas.dev2.1
+	desc = custom_ideas.dev2.5
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	mean_time_to_happen = {
+		months = 144
+	}
+
+	trigger = {
+		has_idea = development3
+	}
+
+	option = {
+		name = "custom_ideas.dev2.4"
+
+		random_owned_province = {
+			limit = {
+				is_state = yes
+			}
+			add_province_modifier = {
+				name = state_development_cost_reduction2
+				duration = 183
+			}
+		}
+	}
+}
+
+country_event = {
+
+	id = custom_ideagroup_events.6
+	title = custom_ideas.dev2.6
+	desc = custom_ideas.dev2.7
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	mean_time_to_happen = {
+		months = 1320
+	}
+
+	trigger = {
+		has_idea = development3
+	}
+
+	option = {
+		name = "custom_ideas.dev2.8"
+
+		add_country_modifier = {
+			name = country_development_cost_reduction1
+			duration = 365
+		}
+	}
+}
+
 ################################################################
 #### Fortification idea group events
 ################################################################
