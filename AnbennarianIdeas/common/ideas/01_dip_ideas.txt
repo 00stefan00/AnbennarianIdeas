@@ -455,7 +455,7 @@ science0 =
 
 	bonus =
 	{
-		all_power_cost = -0.05			
+		all_power_cost = -0.035			
 	}
 
 	science2 =
@@ -485,7 +485,7 @@ science0 =
 
 	science8 =
 	{
-		idea_cost = -0.1
+		idea_cost = -0.05
 	}
 
 	science4 =

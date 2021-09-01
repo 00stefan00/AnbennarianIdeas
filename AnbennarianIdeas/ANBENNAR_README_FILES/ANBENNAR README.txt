@@ -1,1 +1,0 @@
-When playing with anbennar, Replace the 00_basic_ideas.txt file with the one provided in the ANBENNAR_README_FILES
