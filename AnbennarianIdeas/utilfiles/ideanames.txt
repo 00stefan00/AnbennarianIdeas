@@ -16,7 +16,7 @@ x	religious_ideas
 x	diplomatic_ideas
 1	assimilation0
 2	colonial_empire_custom_ideas
-4	science0
+5	science0
 x	spy_ideas
 x	exploration_ideas
 3	fleet_base_custom_ideas
@@ -32,7 +32,7 @@ x	trade_ideas
 1	trade_ship_custom_ideas
 	
 x	aristo0
-x	defensive_ideas
+x1	defensive_ideas
 1	fortress_custom_ideas
 x	naval_ideas
 2	generall_staff_custom_ideas

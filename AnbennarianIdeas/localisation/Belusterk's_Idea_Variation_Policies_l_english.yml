@@ -47,6 +47,9 @@
  weapon_quality_custom_ideas_science0_policy: "Science at war"
  desc_weapon_quality_custom_ideas_science0_policy: "Sending our best scientist to weapon production facilities to improve the quality of our weaponry" 
 
+ defensive_science0_policy: "Smart traps and blockades"
+ desc_defensive_science0_policy: "Our scientists have come up with brilliant new methods to hide traps and blockades in our zones of war"
+
  #Diplomatic Policies
  propaganda_justice_policy: "Its only right"
  desc_propaganda_justice_policy: "Not joining would be a crime" 

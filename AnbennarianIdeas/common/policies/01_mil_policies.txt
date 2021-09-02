@@ -276,3 +276,22 @@ weapon_quality_custom_ideas_science0_policy = {
 		factor = 1	
 	}
 }
+
+defensive_science0_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = defensive_ideas
+		has_idea_group = science0
+	}
+	allow = {
+		full_idea_group = defensive_ideas
+		full_idea_group = science0
+	}
+
+	hostile_attrition = 1	
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
