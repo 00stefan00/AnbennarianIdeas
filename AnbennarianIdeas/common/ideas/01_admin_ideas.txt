@@ -174,9 +174,7 @@ development0 =
 	#development7
 	development7 =
 	{
-		core_creation = 0.15
-		diplomatic_annexation_cost = 0.15
-		global_colonial_growth = -50
+		global_trade_goods_size_modifier = 0.07
 	}
 
 	ai_will_do =
