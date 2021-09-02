@@ -10,7 +10,7 @@ dev_central_policy = {
 		full_idea_group = centralisation_custom_ideas
 	}
 	
-	development_cost = 0.075
+	development_cost = 0.12
 
 	ai_will_do = {
 		factor = 1	
@@ -29,7 +29,7 @@ dev_decentral_policy = {
 		full_idea_group = decentralisation_custom_ideas
 	}
 	
-	development_cost = 0.075
+	development_cost = 0.08
 
 	ai_will_do = {
 		factor = 1	
