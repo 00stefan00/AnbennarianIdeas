@@ -1410,7 +1410,6 @@ conscription_custom_ideas =
 	}		
 		trigger = 
 		{
-			mil_tech = 12
 			NOT = 
 			{
 				has_idea_group = standing_army_custom_ideas
@@ -1553,7 +1552,6 @@ mercenary_custom_ideas =
 	
 	trigger = 
 	{
-		mil_tech = 12
 		NOT = 
 		{
 			has_idea_group = standing_army_custom_ideas
@@ -1708,7 +1706,6 @@ standing_army_custom_ideas =
 	
 	trigger = 
 	{
-		mil_tech = 12
 		NOT = 
 		{
 			has_idea_group = mercenary_custom_ideas

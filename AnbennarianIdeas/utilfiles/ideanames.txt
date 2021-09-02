@@ -16,7 +16,7 @@ x	religious_ideas
 x	diplomatic_ideas
 1	assimilation0
 2	colonial_empire_custom_ideas
-3	science0
+4	science0
 x	spy_ideas
 x	exploration_ideas
 3	fleet_base_custom_ideas
@@ -41,7 +41,7 @@ x	offensive_ideas
 x	quality_ideas
 x	quantity_ideas
 3	tactical_custom_ideas
-2	weapon_quality_custom_ideas
+3	weapon_quality_custom_ideas
 1	war_production_custom_ideas
 2	fire0
 2	shock0

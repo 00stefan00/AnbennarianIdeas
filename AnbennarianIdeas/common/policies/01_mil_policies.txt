@@ -17,7 +17,7 @@ staff_health_policy = {
 	}
 }
 
-fortress_staff_policy = {
+fortress_fire_policy = {
 	monarch_power = MIL
 
 	potential = {
@@ -217,7 +217,7 @@ standing_army_custom_ideas_policy = {
 		full_idea_group = standing_army_custom_ideas
 	}
 
-	discipline = 0.05	
+	discipline = 0.03	
 
 	ai_will_do = {
 		factor = 1	
@@ -234,7 +234,7 @@ mercenary_custom_ideas_policy = {
 		full_idea_group = mercenary_custom_ideas
 	}
 
-	mercenary_discipline = 0.065	
+	mercenary_discipline = 0.04	
 
 	ai_will_do = {
 		factor = 1	
@@ -251,7 +251,26 @@ conscription_custom_ideas_policy = {
 		full_idea_group = conscription_custom_ideas
 	}
 
-	morale_of_armies = 0.1
+	morale_of_armies = 0.6
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+weapon_quality_custom_ideas_science0_policy = {
+	monarch_power = MIL
+
+	potential = {
+		has_idea_group = weapon_quality_custom_ideas
+		has_idea_group = science0
+	}
+	allow = {
+		full_idea_group = weapon_quality_custom_ideas
+		full_idea_group = science0
+	}
+
+	fire_damage = 0.075
 
 	ai_will_do = {
 		factor = 1	

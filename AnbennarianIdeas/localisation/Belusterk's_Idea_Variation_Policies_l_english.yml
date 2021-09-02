@@ -1,57 +1,54 @@
 ﻿l_english: 
  # 1 - 193
  
- #Advisor Pool
- belusterk_idea_variation_act_1: "Imperial Advisors"
- desc_belusterk_idea_variation_act_1: "WIP TEXT"
+ #Military
+ staff_health_policy: "Healthy diet act"
+ desc_staff_health_policy: "By providing a more healthy diet we can take care of more military leaders"
  
- #AE Impact
- belusterk_idea_variation_act_2: "Settling Borders"
- desc_belusterk_idea_variation_act_2: "WIP TEXT"
+ fortress_fire_policy: "Artillery positions act"
+ desc_fortress_fire_policy: "All forts shall have dedicated prepared spots to position our artillery"
  
- #Army Tradition
- belusterk_idea_variation_act_3: "Professional Generals"
- desc_belusterk_idea_variation_act_3: "WIP TEXT" 
- belusterk_idea_variation_act_4: "Anti-Cavalry Manuevers"
- desc_belusterk_idea_variation_act_4: "WIP TEXT"
- 
- #Artillery Cost
- belusterk_idea_variation_act_5: "New Barreling Techniques"
- desc_belusterk_idea_variation_act_5: "WIP TEXT" 
- belusterk_idea_variation_act_6: "Upgrading our Cannons"
- desc_belusterk_idea_variation_act_6: "WIP TEXT"
- 
- #Artillery Power
- belusterk_idea_variation_act_7: "16th Century Cavalry Charges"
- desc_belusterk_idea_variation_act_7: "WIP TEXT"
+ militarismus0_justice_policy: "Justice trough force"
+ desc_militarismus0_justice_policy: "Our military decides what is just." 
 
- #Caravan Power
- belusterk_idea_variation_act_8: "Training Merchants"
- desc_belusterk_idea_variation_act_8: "WIP TEXT"
+ shock0_health_policy: "Massages to the cavelry devisions"
+ desc_shock0_health_policy: "Our cavelry seem to perform much better when taken care off"
  
- #Cavalry Power
- belusterk_idea_variation_act_9: "Cavalry Training"
- desc_belusterk_idea_variation_act_9: "WIP TEXT"
+ fire0_health_policy: "Massages to the infantry devisions"
+ desc_fire0_health_policy: "Our infantry seem to perform much better when taken care off"
+
+ central_weaponqual_policy: "Design your own weapon act"
+ desc_central_weaponqual_policy: "All soldiers are allowed to make adjustments to their personal weapon design and take them to the local factory."
  
- #Colonist Placement Chance
- belusterk_idea_variation_act_10: "Supporting our Colonists Abroad"
- desc_belusterk_idea_variation_act_10: "WIP TEXT" 
- belusterk_idea_variation_act_11: "Supporting our Trading Ports Abroad"
- desc_belusterk_idea_variation_act_11: "WIP TEXT" 
- belusterk_idea_variation_act_12: "Supporting our Colonies Abroad"
- desc_belusterk_idea_variation_act_12: "WIP TEXT"
+ decentral_weaponqual_policy: "Retreive your own weapon act"
+ desc_decentral_weaponqual_policy: "After having to march to the far away factories to retreive their weapons, they're not going to give them up so easily."
+
+ tactic_warprod_policy: "Production like warfare"
+ desc_tactic_warprod_policy: "Our generals have somehow implemented combat tactics on the production floors. And it works."
+
+ tactic_shock_policy: "Advanced Cavelry Tactics 101"
+ desc_tactic_shock_policy: "More training results in better performance"
  
- #Colonist
- belusterk_idea_variation_act_13: "Supporting our Colonization Abroad"
- desc_belusterk_idea_variation_act_13: "WIP TEXT"
+ fire_shock_policy: "Advanced infantry Tactics 101"
+ desc_fire_shock_policy: "More training results in better performance" 
+
+ militarisation_science_policy: "Military science act"
+ desc_militarisation_science_policy: "Combining the capabilities of both our military and our science departments." 
+
+ standing_army_custom_ideas_policy: "Combat simulation training"
+ desc_standing_army_custom_ideas_policy: "No way to improve but by training"
  
- #Culture Conversion Cost
- belusterk_idea_variation_act_14: "Sharing our Superior Culture"
- desc_belusterk_idea_variation_act_14: "WIP TEXT"
+ mercenary_custom_ideas_policy: "Combat simulation training"
+ desc_mercenary_custom_ideas_policy: "No way to improve but by training"
  
- #Defensiveness
- belusterk_idea_variation_act_15: "Freedom Forts"
- desc_belusterk_idea_variation_act_15: "WIP TEXT" 
+ conscription_custom_ideas_policy: "Combat simulation training"
+ desc_conscription_custom_ideas_policy: "No way to improve but by training"
+ 
+ weapon_quality_custom_ideas_science0_policy: "Science at war"
+ desc_weapon_quality_custom_ideas_science0_policy: "Sending our best scientist to weapon production facilities to improve the quality of our weaponry" 
+
+
+
  belusterk_idea_variation_act_16: "Expert Fort Making"
  desc_belusterk_idea_variation_act_16: "WIP TEXT" 
  belusterk_idea_variation_act_17: "Defensive Holdings"
