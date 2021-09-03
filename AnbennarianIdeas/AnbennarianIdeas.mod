@@ -6,7 +6,7 @@ tags={
 	"Missions And Decisions"
 	"events"
 }
-supported_version="1.31.*.*"
-path="mod/AnbennarianIdeas"
-
 picture="modicon.jpg"
+supported_version="1.31.*.*"
+path="C:/Users/stefa/Documents/Paradox Interactive/Europa Universalis IV/mod/AnbennarianIdeas"
+remote_file_id="2590670185"
