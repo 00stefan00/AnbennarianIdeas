@@ -124,7 +124,7 @@ decentral_weaponqual_policy = {
 		full_idea_group = decentralisation_custom_ideas
 	}
 	
-	morale_of_armies = 0.12
+	land_morale = 0.12
 
 	ai_will_do = {
 		factor = 1	
@@ -251,7 +251,7 @@ conscription_custom_ideas_policy = {
 		full_idea_group = conscription_custom_ideas
 	}
 
-	morale_of_armies = 0.6
+	land_morale = 0.06
 
 	ai_will_do = {
 		factor = 1	
