@@ -770,19 +770,19 @@ quality_ideas =
 	}
 
 	private_to_marshal = {
-		infantry_power = 0.10
 		land_maintenance_modifier = 0.03
+		infantry_power = 0.10
 	}
 	quality_education = {
 		army_tradition = 0.5
 	}
 	finest_of_horses = {
-		cavalry_power = 0.15
 		land_maintenance_modifier = 0.03
+		cavalry_power = 0.15
 	}
 	train_em_again = {
-		infantry_power = 0.10
 		land_maintenance_modifier = 0.03
+		infantry_power = 0.10
 	}
 	put_pros_in_charge = {
 		yearly_army_professionalism = 0.01
@@ -792,8 +792,8 @@ quality_ideas =
 		drill_decay_modifier = -0.50
 	}
 	massed_battery = {
-		artillery_power = 0.1
 		land_maintenance_modifier = 0.03
+		artillery_power = 0.10
 	}
 
 	ai_will_do = 

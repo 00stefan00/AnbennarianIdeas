@@ -50,6 +50,9 @@
  defensive_science0_policy: "Smart traps and blockades"
  desc_defensive_science0_policy: "Our scientists have come up with brilliant new methods to hide traps and blockades in our zones of war"
 
+ conscription_propaganda_policy: "Rockstar army"
+ desc_conscription_propaganda_policy: "Our soldiers are as beloved as rockstars by todays youth. Salary negotiations are easier then ever."
+
  #Diplomatic Policies
  propaganda_justice_policy: "Its only right"
  desc_propaganda_justice_policy: "Not joining would be a crime" 

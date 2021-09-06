@@ -21,8 +21,8 @@ country_event = {
 	option = {
 		name = "custom_ideas.34"
 
-		add_years_of_income = -0.15
-		add_adm_power = -30
+		add_years_of_income = -0.05
+		add_adm_power = -20
 
 		random_owned_province = {
 			limit = {
@@ -35,8 +35,8 @@ country_event = {
 	option = {
 		name = "custom_ideas.35"
 
-		add_years_of_income = -0.15
-		add_dip_power = -40
+		add_years_of_income = -0.05
+		add_dip_power = -30
 
 		random_owned_province = {
 			limit = {
@@ -49,8 +49,8 @@ country_event = {
 	option = {
 		name = "custom_ideas.36"
 
-		add_years_of_income = -0.15
-		add_mil_power = -40
+		add_years_of_income = -0.05
+		add_mil_power = -30
 
 		random_owned_province = {
 			limit = {
@@ -63,10 +63,10 @@ country_event = {
 	option = {
 		name = "custom_ideas.37"
 
-		add_years_of_income = -0.5
-		add_adm_power = -33
-		add_dip_power = -33
-		add_mil_power = -33
+		add_years_of_income = -0.25
+		add_adm_power = -20
+		add_dip_power = -20
+		add_mil_power = -20
 
 		capital_scope = {
 			add_base_manpower = 1
