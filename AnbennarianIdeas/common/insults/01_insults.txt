@@ -1,0 +1,59 @@
+insult_custom1 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom2 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom3 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom4 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom5 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom6 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom7 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom8 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom9 = {
+	trigger = {
+		always = yes
+	}
+}
+
+insult_custom10 = {
+	trigger = {
+		always = yes
+	}
+}
