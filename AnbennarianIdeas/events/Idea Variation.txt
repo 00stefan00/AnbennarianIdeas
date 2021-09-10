@@ -167,6 +167,31 @@ country_event = {
 	}
 }
 
+country_event = {
+
+	id = custom_ideagroup_events.7
+	title = custom_ideas.dev2.10
+	desc = custom_ideas.dev2.11
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	mean_time_to_happen = {
+		months = 1200
+	}
+
+	trigger = {
+		has_idea = development3
+	}
+
+	option = {
+		name = "custom_ideas.dev2.12"
+
+		add_country_modifier = {
+			name = country_development_cost_increase1
+			duration = 1095
+		}
+	}
+}
+
 ################################################################
 #### Fortification idea group events
 ################################################################

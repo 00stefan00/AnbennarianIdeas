@@ -132,7 +132,7 @@ justice_propaganda_policy = {
 }
 
 stateadministration0_science_policy = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 	potential = {
 		has_idea_group = stateadministration0
@@ -144,45 +144,6 @@ stateadministration0_science_policy = {
 	}
 	
 	adm_tech_cost_modifier = -0.1
-
-	ai_will_do = {
-		factor = 1	
-	}
-}
-
-weapon_quality_custom_ideas_development0_policy = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = development0
-		has_idea_group = weapon_quality_custom_ideas
-	}
-	allow = {
-		full_idea_group = development0
-		full_idea_group = weapon_quality_custom_ideas
-	}
-	
-	fire_damage = 0.5
-	production_efficiency = 0.10
-
-	ai_will_do = {
-		factor = 1	
-	}
-}
-
-religious_conscription_custom_ideas_policy = {
-	monarch_power = MIL
-
-	potential = {
-		has_idea_group = religious_ideas
-		has_idea_group = conscription_custom_ideas
-	}
-	allow = {
-		full_idea_group = religious_ideas
-		full_idea_group = conscription_custom_ideas
-	}
-	
-	manpower_in_true_faith_provinces = 0.3
 
 	ai_will_do = {
 		factor = 1	

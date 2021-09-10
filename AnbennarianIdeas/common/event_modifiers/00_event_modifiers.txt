@@ -40,13 +40,17 @@ defensive_modifier3_capitol = {
 ################################
 
 state_development_cost_reduction1 = {
-	local_development_cost = -0.15
+	local_development_cost = -0.10
 }
 
 state_development_cost_reduction2 = {
-	local_development_cost = -0.25
+	local_development_cost = -0.20
 }
 
 country_development_cost_reduction1 = {
 	development_cost = -0.30
+}
+
+country_development_cost_increase1 = {
+	development_cost = 0.15
 }
