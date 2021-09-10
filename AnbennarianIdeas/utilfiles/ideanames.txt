@@ -1,15 +1,15 @@
 x	administrative_ideas
-4	development0
+5	development0
 x	economic_ideas
 x	expansion_ideas
-5	health0
+6	health0
 x	humanist_ideas
 x	innovativeness_ideas
 3	justice0
 2	stateadministration0
 1	monarchie0
 1	republik0
-x	religious_ideas
+x1	religious_ideas
 2	centralisation_custom_ideas
 2	decentralisation_custom_ideas
 	
@@ -23,9 +23,9 @@ x	exploration_ideas
 x	influence_ideas
 	imperialismus0
 x	maritime_ideas
-1	nationalismus0
+2	nationalismus0
 3	propaganda_custom_ideas
-1	society_custom_ideas
+2	society_custom_ideas
 x	trade_ideas
 1	heavy_ship_custom_ideas
 1	galley_ship_custom_ideas
@@ -36,16 +36,16 @@ x1	defensive_ideas
 1	fortress_custom_ideas
 x	naval_ideas
 2	generall_staff_custom_ideas
-2	militarismus0
+3	militarismus0
 x	offensive_ideas
 x	quality_ideas
 x	quantity_ideas
 3	tactical_custom_ideas
-3	weapon_quality_custom_ideas
+4	weapon_quality_custom_ideas
 1	war_production_custom_ideas
 2	fire0
 2	shock0
 1	standing_army_custom_ideas
-1	mercenary_custom_ideas
-2	conscription_custom_ideas
+4	mercenary_custom_ideas
+4	conscription_custom_ideas
 x	horde0

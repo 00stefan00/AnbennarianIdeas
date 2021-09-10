@@ -152,3 +152,42 @@ fleetbase_galley_ship_custom_ideas_policy = {
 		factor = 1	
 	}
 }
+
+fleetbase_galley_ship_custom_ideas_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = fleet_base_custom_ideas
+		has_idea_group = galley_ship_custom_ideas
+	}
+	allow = {
+		full_idea_group = fleet_base_custom_ideas
+		full_idea_group = galley_ship_custom_ideas
+	}
+
+	galley_cost = -0.2
+	galley_power = 0.25
+
+	ai_will_do = {
+		factor = 1	
+	}
+}
+
+society_mercenary_custom_ideas_policy = {
+	monarch_power = DIP
+
+	potential = {
+		has_idea_group = society_custom_ideas
+		has_idea_group = mercenary_custom_ideas
+	}
+	allow = {
+		full_idea_group = society_custom_ideas
+		full_idea_group = mercenary_custom_ideas
+	}
+
+	merc_maintenance_modifier = -0.25
+
+	ai_will_do = {
+		factor = 1	
+	}
+}

@@ -53,6 +53,9 @@
  conscription_propaganda_policy: "Rockstar army"
  desc_conscription_propaganda_policy: "Our soldiers are as beloved as rockstars by todays youth. Salary negotiations are easier then ever."
 
+ militarismus0_mercenary_custom_ideas_policy: "Ingrained Cooperation"
+ desc_militarismus0_mercenary_custom_ideas_policy: "Our armies have always trained together with the local mercenary bands. The intensive cooperation has resulted in improved capabilities for both."
+ 
  #Diplomatic Policies
  propaganda_justice_policy: "Its only right"
  desc_propaganda_justice_policy: "Not joining would be a crime" 
@@ -75,6 +78,9 @@
  fleetbase_galley_ship_custom_ideas_policy: "Specialised boats"
  desc_fleetbase_galley_ship_custom_ideas_policy: "We get better ship performance by specialising the build around its trait"
  
+ society_mercenary_custom_ideas_policy: "Local Recruitment"
+ desc_society_mercenary_custom_ideas_policy: "By promoting the job of being a mercenary locally, we are able to find more mercenaries willing to work for less payout."
+
  #Administrative Policies
  dev_central_policy: "Centralised development"
  desc_dev_central_policy: "We need to focus on developing our lands even more"
@@ -105,3 +111,6 @@
 
  religious_conscription_custom_ideas_policy: "Defend our beliefs"
  desc_religious_conscription_custom_ideas_policy: "Who wouldn't give their life to their beliefs. Conscript anyone who follow our nations religion"
+
+ health_mercenary_custom_ideas_policy: "Healthcare Benefits"
+ desc_health_mercenary_custom_ideas_policy: "Our mercenaries are provided with free healthcare within our borders."

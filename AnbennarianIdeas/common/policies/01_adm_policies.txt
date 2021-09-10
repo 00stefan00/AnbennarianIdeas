@@ -189,3 +189,21 @@ religious_conscription_custom_ideas_policy = {
 	}
 }
 
+health_mercenary_custom_ideas_policy = {
+	monarch_power = ADM
+
+	potential = {
+		has_idea_group = health0
+		has_idea_group = mercenary_custom_ideas
+	}
+	allow = {
+		full_idea_group = health0
+		full_idea_group = mercenary_custom_ideas
+	}
+	
+	mercenary_manpower = 0.25
+
+	ai_will_do = {
+		factor = 1	
+	}
+}

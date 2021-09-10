@@ -174,7 +174,7 @@ development0 =
 	#development7
 	development7 =
 	{
-		global_trade_goods_size_modifier = 0.07
+		global_trade_goods_size_modifier = 0.05
 	}
 
 	ai_will_do =
@@ -1212,13 +1212,13 @@ stateadministration0 =
 
 	bonus =
 	{
-		core_creation = -0.1		
+		core_creation = -0.15	
 	}
 
 	#StateAdministration1
 	stateadministration1 =
 	{
-		governing_capacity = 150
+		governing_capacity = 100
 	}
 
 	#StateAdministration2
@@ -1230,7 +1230,7 @@ stateadministration0 =
 	#StateAdministration3
 	stateadministration3 =
 	{
-		development_cost = -0.1
+		development_cost = -0.15
 	}
 
 	#StateAdministration4
@@ -1255,7 +1255,7 @@ stateadministration0 =
 	#StateAdministration7
 	stateadministration7 =
 	{
-		global_trade_goods_size_modifier = 0.05
+		global_trade_goods_size_modifier = 0.07
 	}
 
 	ai_will_do =
@@ -5403,7 +5403,7 @@ centralisation_custom_ideas =
 	#Centralism3
 	zentra3 =
 	{
-		development_cost = -0.20
+		development_cost = -0.10
 	}
 
 	#Centralism4

@@ -770,18 +770,15 @@ quality_ideas =
 	}
 
 	private_to_marshal = {
-		land_maintenance_modifier = 0.03
 		infantry_power = 0.10
 	}
 	quality_education = {
 		army_tradition = 0.5
 	}
 	finest_of_horses = {
-		land_maintenance_modifier = 0.03
 		cavalry_power = 0.15
 	}
 	train_em_again = {
-		land_maintenance_modifier = 0.03
 		infantry_power = 0.10
 	}
 	put_pros_in_charge = {
@@ -792,7 +789,6 @@ quality_ideas =
 		drill_decay_modifier = -0.50
 	}
 	massed_battery = {
-		land_maintenance_modifier = 0.03
 		artillery_power = 0.10
 	}
 
@@ -882,7 +878,7 @@ quantity_ideas =
 	
 	mass_army = 
 	{
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.4
 		land_forcelimit = 15
 	}
 	
@@ -1547,7 +1543,7 @@ mercenary_custom_ideas =
 
 	bonus = 
 	{
-		merc_maintenance_modifier = -1	
+		merc_maintenance_modifier = -0.75
 	}
 	
 	trigger = 
@@ -1562,7 +1558,7 @@ mercenary_custom_ideas =
 	soldnerheer1 = 
 	{
 		loot_amount = 1.0
-		available_province_loot = 0.25
+		available_province_loot = 1
 	}
 	
 	soldnerheer2 = 
@@ -1572,7 +1568,7 @@ mercenary_custom_ideas =
 	
 	soldnerheer3 = 
 	{
-		war_exhaustion = -0.025
+		war_exhaustion = -0.01
 	}
 	
 	soldnerheer4 = 
@@ -1584,8 +1580,7 @@ mercenary_custom_ideas =
 	soldnerheer5 = 
 	{		
 		recover_army_morale_speed = 0.1
-		free_leader_pool = 2
-		# ALLOW RECRUITMENT OF MERCENARY REGIMENTS ## FROM STIOPA
+		free_leader_pool = 1
 	}
 	
 	soldnerheer6 = 
@@ -1595,9 +1590,7 @@ mercenary_custom_ideas =
 	
 	soldnerheer7 = 
 	{
-		mercenary_manpower = 0.5
-		# <<WIKI>> no_prof_loss_for_mercs = yes
-		# <<WIKI>> prof_decay_for_mercs = yes
+		mercenary_manpower = 0.33
 	}
 	
 	ai_will_do = 
@@ -1730,7 +1723,7 @@ standing_army_custom_ideas =
 	
 	stehendesheer4 = 
 	{
-		yearly_army_professionalism = 0.025	
+		yearly_army_professionalism = 0.01
 	}
 	
 	stehendesheer5 = 

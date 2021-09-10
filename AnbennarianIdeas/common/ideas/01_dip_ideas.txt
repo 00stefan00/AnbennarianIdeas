@@ -1223,6 +1223,7 @@ influence_ideas =
 	bonus =
 	{
 		accept_vassalization_reasons = 15
+		vassal_income = 0.15
 	}
 
 	tribute_system =
@@ -1237,8 +1238,7 @@ influence_ideas =
 
 	integrated_elites =
 	{
-		diplomatic_annexation_cost = -0.15
-		vassal_income = 0.15
+		diplomatic_annexation_cost = -0.2
 	}
 
 	state_propaganda =
