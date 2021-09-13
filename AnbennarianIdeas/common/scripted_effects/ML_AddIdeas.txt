@@ -842,8 +842,8 @@ Addinfluence_ideas = {
 	add_idea_group = influence_ideas	} #Influence Ideas
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = tribute_system
 		if = { limit = { has_idea = tribute_system } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
-	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = flexible_negotiation
-		if = { limit = { has_idea = flexible_negotiation } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
+	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = flexible_negotiations
+		if = { limit = { has_idea = flexible_negotiations } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = integrated_elites
 		if = { limit = { has_idea = integrated_elites } subtract_variable = { which = numOfFreeIdeas value = 1 }	} }
 	if = { limit = { check_variable = { which = numOfFreeIdeas value = 1	} } add_idea = state_propaganda
